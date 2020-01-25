@@ -6,6 +6,7 @@ const connection = require('../database/db.js');
 router.route('/:id')
   .get((req, res) => {
     let param = req.params.id;
+    console.log('router.js param:', param);
     connection.query('SELECT * FROM about WHERE id=(?)', [param], (err, data) => {
       if (err) {
         console.log('error at server/router.js GET/:id', err);

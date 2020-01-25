@@ -7,7 +7,6 @@ const router = require('./router.js');
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use('/api/about', router);
+app.use('/:id', express.static(__dirname + '/../public'));
 
-
-app.use(express.static('public'));
 app.listen(process.env.PORT || 313, console.log('Listening on port 313'));
