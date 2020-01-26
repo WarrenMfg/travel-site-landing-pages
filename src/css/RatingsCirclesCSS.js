@@ -49,7 +49,8 @@ const styles = {
 
   ratingCategory: styled.span({
     display: 'inline-block',
-    marginLeft: '15px'
+    marginLeft: '15px',
+    fontSize: '14px'
   })
 };
 
