@@ -28,6 +28,11 @@ class RatingsCircles extends React.Component {
 
           <styles.outerCircle>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     case r < 1:
@@ -50,6 +55,11 @@ class RatingsCircles extends React.Component {
 
           <styles.outerCircle>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     case r === 1:
@@ -72,6 +82,11 @@ class RatingsCircles extends React.Component {
 
           <styles.outerCircle>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     case r < 2:
@@ -97,6 +112,11 @@ class RatingsCircles extends React.Component {
 
           <styles.outerCircle>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     case r === 2:
@@ -122,6 +142,11 @@ class RatingsCircles extends React.Component {
 
           <styles.outerCircle>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     case r < 3:
@@ -150,6 +175,11 @@ class RatingsCircles extends React.Component {
 
           <styles.outerCircle>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     case r === 3:
@@ -178,6 +208,11 @@ class RatingsCircles extends React.Component {
 
           <styles.outerCircle>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     case r < 4:
@@ -209,6 +244,11 @@ class RatingsCircles extends React.Component {
 
           <styles.outerCircle>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     case r === 4:
@@ -240,6 +280,11 @@ class RatingsCircles extends React.Component {
 
           <styles.outerCircle>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     case r < 5:
@@ -274,6 +319,11 @@ class RatingsCircles extends React.Component {
               <styles.halfCircle></styles.halfCircle>
             </styles.innerCircleContainer>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     case r === 5:
@@ -308,6 +358,11 @@ class RatingsCircles extends React.Component {
               <styles.innerCircle></styles.innerCircle>
             </styles.innerCircleContainer>
           </styles.outerCircle>
+
+          {this.props.reviews ?
+            <styles.reviews>{this.props.reviews}</styles.reviews> :
+            <styles.ratingCategory>{this.props.category}</styles.ratingCategory>
+          }
         </styles.circleContainer>
       );
     }

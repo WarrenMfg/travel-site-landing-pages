@@ -13,7 +13,7 @@ const styles = {
     width: '50vw',
     borderTop: '4px solid rgb(0, 129, 113)',
     margin: '0 auto',
-    padding: '0 15px 15px',
+    padding: '0 24px 24px',
     backgroundColor: 'white'
   }),
 

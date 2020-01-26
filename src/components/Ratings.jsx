@@ -36,15 +36,14 @@ class Ratings extends React.Component {
         <styles.averageLink>
           <styles.averageWords>
             {averageWords}
-            <styles.reviewsLink>reviews</styles.reviewsLink>
           </styles.averageWords>
-          <RatingsCircles rating={this.props.average} />
+          <RatingsCircles rating={this.props.average} reviews={'reviews'} />
         </styles.averageLink>
 
-        <RatingsCircles rating={this.props.location} />
-        <RatingsCircles rating={this.props.cleanliness} />
-        <RatingsCircles rating={this.props.service} />
-        <RatingsCircles rating={this.props.value} />
+        <RatingsCircles rating={this.props.location} category={'Location'} />
+        <RatingsCircles rating={this.props.cleanliness} category={'Cleanliness'} />
+        <RatingsCircles rating={this.props.service} category={'Service'} />
+        <RatingsCircles rating={this.props.value} category={'Value'} />
 
       </styles.ratingsContainer>
     );
