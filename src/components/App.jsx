@@ -75,7 +75,11 @@ class App extends React.Component {
               />
 
               <styles.superlativeContainer onMouseOver={this.handleSuperlativeMouseOver} onMouseOut={this.handleSuperlativeMouseOut}>
-                <styles.superlative><i className="fas fa-award" css={styles.faSuperlative}></i>Certificate of Excellence</styles.superlative>
+                {this.state.certOfExcellence ?
+                  <styles.superlative><i className="fas fa-award" css={styles.faSuperlative}></i>Certificate of Excellence</styles.superlative> :
+                  null
+                }
+
                 {this.state.coePopup ?
                   <styles.coePopup>
                     <div>
@@ -86,7 +90,11 @@ class App extends React.Component {
                   null
                 }
 
-                <styles.superlative><i className="fab fa-envira" css={styles.faSuperlative}></i>GreenLeaders GreenPartner</styles.superlative>
+                {this.state.greenLeaders ?
+                  <styles.superlative><i className="fab fa-envira" css={styles.faSuperlative}></i>GreenLeaders GreenPartner</styles.superlative> :
+                  null
+                }
+
                 {this.state.greenLeadersPopup ?
                   <styles.greenLeadersPopup>
                     <div>

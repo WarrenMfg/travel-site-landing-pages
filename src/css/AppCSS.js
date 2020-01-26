@@ -68,7 +68,8 @@ const styles = {
     },
     '& p': {
       fontSize: '14px',
-      marginBottom: '0'
+      marginBottom: '0',
+      lineHeight: '18px'
     }
   }),
 
@@ -92,7 +93,7 @@ const styles = {
       paddingLeft: '15px'
     },
     '& li': {
-      margin: '0',
+      margin: '5px',
       padding: '0'
     }
   }),
