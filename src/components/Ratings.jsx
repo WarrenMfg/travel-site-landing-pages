@@ -1,6 +1,7 @@
 import React from 'react';
-import {Global, css, jsx} from '@emotion/core';
+import {jsx} from '@emotion/core';
 import styles from '../css/RatingsCSS.js';
+import RatingsCircles from './RatingsCircles.jsx';
 
 class Ratings extends React.Component {
   constructor(props) {
@@ -8,32 +9,43 @@ class Ratings extends React.Component {
   }
 
   render() {
-    let averageWords = 'Very good';
+    let averageWords;
     switch (true) {
     case this.props.average <= 1:
-      averageWords = 'Look elsewhere';
+      averageWords = 'Poor';
       break;
     case this.props.average <= 2:
-      averageWords = 'Think again';
-      break;
-    case this.props.average <= 3:
       averageWords = 'Fair';
       break;
+    case this.props.average <= 3:
+      averageWords = 'Good';
+      break;
     case this.props.average <= 4:
-      averageWords = 'Very good';
+      averageWords = 'Excellent';
       break;
     case this.props.average <= 5:
-      averageWords = 'Excellent';
+      averageWords = 'Outstanding';
       break;
     }
 
     return (
       <styles.ratingsContainer>
+
         <styles.averageNum>{this.props.average}</styles.averageNum>
+
         <styles.averageLink>
-          <styles.averageWords>{averageWords}</styles.averageWords>
+          <styles.averageWords>
+            {averageWords}
+            <styles.reviewsLink>reviews</styles.reviewsLink>
+          </styles.averageWords>
           <RatingsCircles rating={this.props.average} />
         </styles.averageLink>
+
+        <RatingsCircles rating={this.props.location} />
+        <RatingsCircles rating={this.props.cleanliness} />
+        <RatingsCircles rating={this.props.service} />
+        <RatingsCircles rating={this.props.value} />
+
       </styles.ratingsContainer>
     );
   }
