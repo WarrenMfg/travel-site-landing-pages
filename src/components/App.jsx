@@ -2,6 +2,7 @@ import React from 'react';
 import {Global, css, jsx} from '@emotion/core';
 import styles from '../css/AppCSS.js';
 import Ratings from './Ratings.jsx';
+import Superlatives from './Superlatives.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -62,6 +63,7 @@ class App extends React.Component {
 
           <styles.h2>About</styles.h2>
 
+
           <styles.grid>
             <styles.left>
               <Ratings
@@ -74,44 +76,18 @@ class App extends React.Component {
                 greenLeaders={this.state.greenLeaders}
               />
 
-              <styles.superlativeContainer onMouseOver={this.handleSuperlativeMouseOver} onMouseOut={this.handleSuperlativeMouseOut}>
-                {this.state.certOfExcellence ?
-                  <styles.superlative><i className="fas fa-award" css={styles.faSuperlative}></i>Certificate of Excellence</styles.superlative> :
-                  null
-                }
+              <Superlatives
+                mouseOver={this.handleSuperlativeMouseOver}
+                mouseOut={this.handleSuperlativeMouseOut}
+                certOfExcellence={this.state.certOfExcellence}
+                coePopup={this.state.coePopup}
+                greenLeaders={this.state.greenLeaders}
+                greenLeadersPopup={this.state.greenLeadersPopup}
+              />
 
-                {this.state.coePopup ?
-                  <styles.coePopup>
-                    <div>
-                      <h3>What is Certificate of Excellence?</h3>
-                      <p>TripAdvisor gives a Certificate of Excellence to accommodations, attractions and restaurants that consistently earn great reviews from travelers.</p>
-                    </div>
-                  </styles.coePopup> :
-                  null
-                }
 
-                {this.state.greenLeaders ?
-                  <styles.superlative><i className="fab fa-envira" css={styles.faSuperlative}></i>GreenLeaders GreenPartner</styles.superlative> :
-                  null
-                }
 
-                {this.state.greenLeadersPopup ?
-                  <styles.greenLeadersPopup>
-                    <div>
-                      <h4>GreenLeaders GreenPartner</h4>
-                      <ul>
-                        <li>Staff training on green practices</li>
-                        <li>Towel reuse program</li>
-                        <li>Linen reuse program</li>
-                        <li>Energy-efficient lightbulbs</li>
-                        <li>Tracks energy use</li>
-                        <li>See all green practices</li>
-                      </ul>
-                    </div>
-                  </styles.greenLeadersPopup> :
-                  null
-                }
-              </styles.superlativeContainer>
+
 
             </styles.left>
 
