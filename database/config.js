@@ -59,7 +59,7 @@ const seed = () => {
   let roomTypeCopy3 = faker.lorem.sentence(2);
 
   let hotelClass = faker.finance.amount(0, 5, 1);
-  let hotelStyle = faker.lorem.sentence(2);
+  let hotelStyle = faker.lorem.sentences(4, '\n');
 
   let hotelWebsite = faker.internet.url();
   let hotelDeals = faker.internet.url();

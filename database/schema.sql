@@ -61,7 +61,7 @@ CREATE TABLE `about` (
   `roomTypeCopy3` varchar(50) NOT NULL,
 
   `hotelClass` float(2, 1) NOT NULL,
-  `hotelStyle` varchar(50) NOT NULL,
+  `hotelStyle` text NOT NULL,
 
   `hotelWebsite` varchar(255) NOT NULL,
   `hotelDeals` varchar(255) NOT NULL
