@@ -41,7 +41,7 @@ const styles = {
   reviews: styled.span({
     display: 'inline-block',
     marginLeft: '5px',
-    color: 'black',
+    color: '#4A4A4A',
     fontSize: '14px',
     fontWeight: 'normal',
     textDecoration: 'underline rgb(100, 100, 100) dotted'

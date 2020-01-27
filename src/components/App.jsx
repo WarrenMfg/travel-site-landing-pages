@@ -3,6 +3,7 @@ import {Global, css, jsx} from '@emotion/core';
 import styles from '../css/AppCSS.js';
 import Ratings from './Ratings.jsx';
 import Superlatives from './Superlatives.jsx';
+import AboutCopy from './AboutCopy.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -85,10 +86,12 @@ class App extends React.Component {
                 greenLeadersPopup={this.state.greenLeadersPopup}
               />
 
+              <AboutCopy
+                copy={this.state.aboutCopy}
+              />
 
-
-
-
+              {/* IMAGE CAROUSEL IF TIME PERMITS */}
+              <styles.imagePlaceholder></styles.imagePlaceholder>
             </styles.left>
 
 

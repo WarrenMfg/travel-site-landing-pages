@@ -5,6 +5,7 @@ const styles = {
   global: css`
   body {
     font-family: Arial;
+    color: #4A4A4A;
     background-color: rgb(242, 242, 242);
   }
 `,
@@ -19,6 +20,7 @@ const styles = {
 
   h2: styled.h2({
     borderBottom: '1px solid rgb(229, 229, 229)',
+    color: 'black',
     padding: '20px 0',
     margin: '0'
   }),
@@ -33,6 +35,17 @@ const styles = {
   left: styled.div({
     gridArea: 'left'
   }),
+
+  imagePlaceholder: styled.div({
+    width: '100%',
+    height: '325px',
+    backgroundImage: 'url("../../public/hotel.jpg")',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    marginTop: '20px'
+  }),
+
 
   right: styled.div({
     gridArea: 'right'
