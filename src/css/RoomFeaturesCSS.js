@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 const styles = {
-  propertyAmenitiesContainer: styled.div({
+  roomFeaturesContainer: styled.div({
     borderBottom: '1px solid rgb(229, 229, 229)',
     paddingBottom: '14px',
     '& h4': {
@@ -23,17 +23,7 @@ const styles = {
       width: '16px',
       marginRight: '15px'
     }
-  }),
-
-  showMore: styled.p({
-    fontSize: '14px',
-    fontWeight: 'bold',
-    margin: '10px 0 4px',
-    color: 'rgb(0, 129, 113)',
-    cursor: 'pointer'
   })
-
-
 };
 
 export default styles;

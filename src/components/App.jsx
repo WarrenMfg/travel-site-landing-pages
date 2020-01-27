@@ -5,6 +5,9 @@ import Ratings from './Ratings.jsx';
 import Superlatives from './Superlatives.jsx';
 import AboutCopy from './AboutCopy.jsx';
 import PropertyAmenities from './PropertyAmenities.jsx';
+import RoomFeatures from './RoomFeatures.jsx';
+import RoomTypes from './RoomTypes.jsx';
+import GoodToKnow from './GoodToKnow.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -37,7 +40,33 @@ class App extends React.Component {
       amenityIcon6: null,
       amenityCopy6: null,
       amenityIcon7: null,
-      amenityCopy7: null
+      amenityCopy7: null,
+      roomFeatureIcon0: null,
+      roomFeatureCopy0: null,
+      roomFeatureIcon1: null,
+      roomFeatureCopy1: null,
+      roomFeatureIcon2: null,
+      roomFeatureCopy2: null,
+      roomFeatureIcon3: null,
+      roomFeatureCopy3: null,
+      roomFeatureIcon4: null,
+      roomFeatureCopy4: null,
+      roomFeatureIcon5: null,
+      roomFeatureCopy5: null,
+      roomFeatureIcon6: null,
+      roomFeatureCopy6: null,
+      roomFeatureIcon7: null,
+      roomFeatureCopy7: null,
+      roomTypeIcon0: null,
+      roomTypeCopy0: null,
+      roomTypeIcon1: null,
+      roomTypeCopy1: null,
+      roomTypeIcon2: null,
+      roomTypeCopy2: null,
+      roomTypeIcon3: null,
+      roomTypeCopy3: null,
+      hotelClass: null,
+      hotelStyle: null
     };
     this.handleSuperlativeMouseOver = this.handleSuperlativeMouseOver.bind(this);
     this.handleSuperlativeMouseOut = this.handleSuperlativeMouseOut.bind(this);
@@ -77,7 +106,33 @@ class App extends React.Component {
           amenityIcon6,
           amenityCopy6,
           amenityIcon7,
-          amenityCopy7
+          amenityCopy7,
+          roomFeatureIcon0,
+          roomFeatureCopy0,
+          roomFeatureIcon1,
+          roomFeatureCopy1,
+          roomFeatureIcon2,
+          roomFeatureCopy2,
+          roomFeatureIcon3,
+          roomFeatureCopy3,
+          roomFeatureIcon4,
+          roomFeatureCopy4,
+          roomFeatureIcon5,
+          roomFeatureCopy5,
+          roomFeatureIcon6,
+          roomFeatureCopy6,
+          roomFeatureIcon7,
+          roomFeatureCopy7,
+          roomTypeIcon0,
+          roomTypeCopy0,
+          roomTypeIcon1,
+          roomTypeCopy1,
+          roomTypeIcon2,
+          roomTypeCopy2,
+          roomTypeIcon3,
+          roomTypeCopy3,
+          hotelClass,
+          hotelStyle
         } = data;
 
         this.setState({
@@ -105,7 +160,33 @@ class App extends React.Component {
           amenityIcon6,
           amenityCopy6,
           amenityIcon7,
-          amenityCopy7
+          amenityCopy7,
+          roomFeatureIcon0,
+          roomFeatureCopy0,
+          roomFeatureIcon1,
+          roomFeatureCopy1,
+          roomFeatureIcon2,
+          roomFeatureCopy2,
+          roomFeatureIcon3,
+          roomFeatureCopy3,
+          roomFeatureIcon4,
+          roomFeatureCopy4,
+          roomFeatureIcon5,
+          roomFeatureCopy5,
+          roomFeatureIcon6,
+          roomFeatureCopy6,
+          roomFeatureIcon7,
+          roomFeatureCopy7,
+          roomTypeIcon0,
+          roomTypeCopy0,
+          roomTypeIcon1,
+          roomTypeCopy1,
+          roomTypeIcon2,
+          roomTypeCopy2,
+          roomTypeIcon3,
+          roomTypeCopy3,
+          hotelClass,
+          hotelStyle
         });
       })
       .catch(err => console.log('error at App.jsx componentDidMount', err));
@@ -196,6 +277,41 @@ class App extends React.Component {
                 amenityCopy6={this.state.amenityCopy6}
                 amenityIcon7={this.state.amenityIcon7}
                 amenityCopy7={this.state.amenityCopy7}
+              />
+
+              <RoomFeatures
+                roomFeatureIcon0={this.state.roomFeatureIcon0}
+                roomFeatureCopy0={this.state.roomFeatureCopy0}
+                roomFeatureIcon1={this.state.roomFeatureIcon1}
+                roomFeatureCopy1={this.state.roomFeatureCopy1}
+                roomFeatureIcon2={this.state.roomFeatureIcon2}
+                roomFeatureCopy2={this.state.roomFeatureCopy2}
+                roomFeatureIcon3={this.state.roomFeatureIcon3}
+                roomFeatureCopy3={this.state.roomFeatureCopy3}
+                roomFeatureIcon4={this.state.roomFeatureIcon4}
+                roomFeatureCopy4={this.state.roomFeatureCopy4}
+                roomFeatureIcon5={this.state.roomFeatureIcon5}
+                roomFeatureCopy5={this.state.roomFeatureCopy5}
+                roomFeatureIcon6={this.state.roomFeatureIcon6}
+                roomFeatureCopy6={this.state.roomFeatureCopy6}
+                roomFeatureIcon7={this.state.roomFeatureIcon7}
+                roomFeatureCopy7={this.state.roomFeatureCopy7}
+              />
+
+              <RoomTypes
+                roomTypeIcon0={this.state.roomTypeIcon0}
+                roomTypeCopy0={this.state.roomTypeCopy0}
+                roomTypeIcon1={this.state.roomTypeIcon1}
+                roomTypeCopy1={this.state.roomTypeCopy1}
+                roomTypeIcon2={this.state.roomTypeIcon2}
+                roomTypeCopy2={this.state.roomTypeCopy2}
+                roomTypeIcon3={this.state.roomTypeIcon3}
+                roomTypeCopy3={this.state.roomTypeCopy3}
+              />
+
+              <GoodToKnow
+                hotelClass={this.state.hotelClass}
+                hotelStyle={this.state.hotelStyle}
               />
             </styles.right>
 
