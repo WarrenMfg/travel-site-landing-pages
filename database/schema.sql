@@ -17,6 +17,8 @@ CREATE TABLE `about` (
 
   `aboutCopy` text NOT NULL,
 
+  `amenityIcon0` tinyint NOT NULL,
+  `amenityCopy0` varchar(50) NOT NULL,
   `amenityIcon1` tinyint NOT NULL,
   `amenityCopy1` varchar(50) NOT NULL,
   `amenityIcon2` tinyint NOT NULL,
@@ -31,9 +33,9 @@ CREATE TABLE `about` (
   `amenityCopy6` varchar(50) NOT NULL,
   `amenityIcon7` tinyint NOT NULL,
   `amenityCopy7` varchar(50) NOT NULL,
-  `amenityIcon8` tinyint NOT NULL,
-  `amenityCopy8` varchar(50) NOT NULL,
 
+  `roomFeatureIcon0` tinyint NOT NULL,
+  `roomFeatureCopy0` varchar(50) NOT NULL,
   `roomFeatureIcon1` tinyint NOT NULL,
   `roomFeatureCopy1` varchar(50) NOT NULL,
   `roomFeatureIcon2` tinyint NOT NULL,
@@ -48,17 +50,15 @@ CREATE TABLE `about` (
   `roomFeatureCopy6` varchar(50) NOT NULL,
   `roomFeatureIcon7` tinyint NOT NULL,
   `roomFeatureCopy7` varchar(50) NOT NULL,
-  `roomFeatureIcon8` tinyint NOT NULL,
-  `roomFeatureCopy8` varchar(50) NOT NULL,
 
+  `roomTypeIcon0` tinyint NOT NULL,
+  `roomTypeCopy0` varchar(50) NOT NULL,
   `roomTypeIcon1` tinyint NOT NULL,
   `roomTypeCopy1` varchar(50) NOT NULL,
   `roomTypeIcon2` tinyint NOT NULL,
   `roomTypeCopy2` varchar(50) NOT NULL,
   `roomTypeIcon3` tinyint NOT NULL,
   `roomTypeCopy3` varchar(50) NOT NULL,
-  `roomTypeIcon4` tinyint NOT NULL,
-  `roomTypeCopy4` varchar(50) NOT NULL,
 
   `hotelClass` float(2, 1) NOT NULL,
   `hotelStyle` varchar(50) NOT NULL,

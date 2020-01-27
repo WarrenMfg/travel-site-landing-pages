@@ -15,6 +15,8 @@ const seed = () => {
 
   let aboutCopy = faker.lorem.paragraphs(5, '\n');
 
+  let amenityIcon0 = faker.random.number(10);
+  let amenityCopy0 = faker.lorem.sentence(2);
   let amenityIcon1 = faker.random.number(10);
   let amenityCopy1 = faker.lorem.sentence(2);
   let amenityIcon2 = faker.random.number(10);
@@ -29,9 +31,9 @@ const seed = () => {
   let amenityCopy6 = faker.lorem.sentence(2);
   let amenityIcon7 = faker.random.number(10);
   let amenityCopy7 = faker.lorem.sentence(2);
-  let amenityIcon8 = faker.random.number(10);
-  let amenityCopy8 = faker.lorem.sentence(2);
 
+  let roomFeatureIcon0 = faker.random.number(10);
+  let roomFeatureCopy0 = faker.lorem.sentence(2);
   let roomFeatureIcon1 = faker.random.number(10);
   let roomFeatureCopy1 = faker.lorem.sentence(2);
   let roomFeatureIcon2 = faker.random.number(10);
@@ -46,17 +48,15 @@ const seed = () => {
   let roomFeatureCopy6 = faker.lorem.sentence(2);
   let roomFeatureIcon7 = faker.random.number(10);
   let roomFeatureCopy7 = faker.lorem.sentence(2);
-  let roomFeatureIcon8 = faker.random.number(10);
-  let roomFeatureCopy8 = faker.lorem.sentence(2);
 
+  let roomTypeIcon0 = faker.random.number(3);
+  let roomTypeCopy0 = faker.lorem.sentence(2);
   let roomTypeIcon1 = faker.random.number(3);
   let roomTypeCopy1 = faker.lorem.sentence(2);
   let roomTypeIcon2 = faker.random.number(3);
   let roomTypeCopy2 = faker.lorem.sentence(2);
   let roomTypeIcon3 = faker.random.number(3);
   let roomTypeCopy3 = faker.lorem.sentence(2);
-  let roomTypeIcon4 = faker.random.number(3);
-  let roomTypeCopy4 = faker.lorem.sentence(2);
 
   let hotelClass = faker.finance.amount(0, 5, 1);
   let hotelStyle = faker.lorem.sentence(2);
@@ -73,6 +73,8 @@ const seed = () => {
     certOfExcellence,
     greenLeaders,
     aboutCopy,
+    amenityIcon0,
+    amenityCopy0,
     amenityIcon1,
     amenityCopy1,
     amenityIcon2,
@@ -87,8 +89,8 @@ const seed = () => {
     amenityCopy6,
     amenityIcon7,
     amenityCopy7,
-    amenityIcon8,
-    amenityCopy8,
+    roomFeatureIcon0,
+    roomFeatureCopy0,
     roomFeatureIcon1,
     roomFeatureCopy1,
     roomFeatureIcon2,
@@ -103,23 +105,21 @@ const seed = () => {
     roomFeatureCopy6,
     roomFeatureIcon7,
     roomFeatureCopy7,
-    roomFeatureIcon8,
-    roomFeatureCopy8,
+    roomTypeIcon0,
+    roomTypeCopy0,
     roomTypeIcon1,
     roomTypeCopy1,
     roomTypeIcon2,
     roomTypeCopy2,
     roomTypeIcon3,
     roomTypeCopy3,
-    roomTypeIcon4,
-    roomTypeCopy4,
     hotelClass,
     hotelStyle,
     hotelWebsite,
     hotelDeals
   ];
 
-  connection.query('INSERT INTO about (average, location, cleanliness, service, value, certOfExcellence, greenLeaders, aboutCopy, amenityIcon1, amenityCopy1, amenityIcon2, amenityCopy2, amenityIcon3, amenityCopy3, amenityIcon4, amenityCopy4, amenityIcon5, amenityCopy5, amenityIcon6, amenityCopy6, amenityIcon7, amenityCopy7, amenityIcon8, amenityCopy8, roomFeatureIcon1, roomFeatureCopy1, roomFeatureIcon2, roomFeatureCopy2, roomFeatureIcon3, roomFeatureCopy3, roomFeatureIcon4, roomFeatureCopy4, roomFeatureIcon5, roomFeatureCopy5, roomFeatureIcon6, roomFeatureCopy6, roomFeatureIcon7, roomFeatureCopy7, roomFeatureIcon8, roomFeatureCopy8, roomTypeIcon1, roomTypeCopy1, roomTypeIcon2, roomTypeCopy2, roomTypeIcon3, roomTypeCopy3, roomTypeIcon4, roomTypeCopy4, hotelClass, hotelStyle, hotelWebsite, hotelDeals) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', params, (err, data) => {
+  connection.query('INSERT INTO about (average, location, cleanliness, service, value, certOfExcellence, greenLeaders, aboutCopy, amenityIcon0, amenityCopy0, amenityIcon1, amenityCopy1, amenityIcon2, amenityCopy2, amenityIcon3, amenityCopy3, amenityIcon4, amenityCopy4, amenityIcon5, amenityCopy5, amenityIcon6, amenityCopy6, amenityIcon7, amenityCopy7, roomFeatureIcon0, roomFeatureCopy0, roomFeatureIcon1, roomFeatureCopy1, roomFeatureIcon2, roomFeatureCopy2, roomFeatureIcon3, roomFeatureCopy3, roomFeatureIcon4, roomFeatureCopy4, roomFeatureIcon5, roomFeatureCopy5, roomFeatureIcon6, roomFeatureCopy6, roomFeatureIcon7, roomFeatureCopy7, roomTypeIcon0, roomTypeCopy0, roomTypeIcon1, roomTypeCopy1, roomTypeIcon2, roomTypeCopy2, roomTypeIcon3, roomTypeCopy3, hotelClass, hotelStyle, hotelWebsite, hotelDeals) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', params, (err, data) => {
     if (err) {
       console.log('error at database/config.js INSERT INTO', err);
     } else {

@@ -18,7 +18,9 @@ const styles = {
   superlative: styled.p({
     fontSize: '14px',
     textDecoration: 'underline rgb(100, 100, 100) dotted',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    width: 'fit-content',
+    paddingRight: '50px'
   }),
 
   coePopup: styled.div({
@@ -64,6 +66,11 @@ const styles = {
     '& li': {
       margin: '5px',
       padding: '0'
+    },
+    '& a': {
+      fontSize: '14px',
+      color: 'rgb(0, 129, 113)'
+
     }
   })
 };
