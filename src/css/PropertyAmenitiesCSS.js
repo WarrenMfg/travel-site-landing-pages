@@ -13,17 +13,30 @@ const styles = {
   grid: styled.div({
     display: 'grid',
     gridTemplateColumns: '1fr 1fr',
-    gridTemplateAreas: 'left right'
-    // gridTemplateRows: '1fr 1fr 1fr 1fr',
-    // gridTemplateAreas: '"one two" "three four" "five six" "seven eight"'
+    gridTemplateAreas: '"left right"'
   }),
 
   left: styled.div({
-    gridArea: 'left'
+    gridArea: 'left',
+    '& i': {
+      width: '16px',
+      marginRight: '15px'
+    }
   }),
 
   right: styled.div({
-    gridArea: 'right'
+    gridArea: 'right',
+    '& i': {
+      width: '16px',
+      marginRight: '15px'
+    }
+  }),
+
+  showMore: styled.p({
+    fontSize: '14px',
+    fontWeight: 'bold',
+    marginBottom: '4px',
+    color: 'rgb(0, 129, 113)'
   })
 
 
