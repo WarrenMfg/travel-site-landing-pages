@@ -2,13 +2,13 @@
   "name": "about",
   "version": "1.0.0",
   "description": "TripAdvisor About Widget",
-  "main": "index.js",
+  "main": "server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
     "start:dev": "nodemon server/index.js",
     "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash",
-    "db": "mysql -u root < ./database/schema.sql",
+    "db": "mysql -u root < database/schema.sql",
     "seed": "node database/config.js"
   },
   "nodemonConfig": {

@@ -8,9 +8,9 @@ class Superlatives extends React.Component {
 
   render() {
     return (
-      <styles.superlativeContainer onMouseOver={this.props.mouseOver} onMouseOut={this.props.mouseOut}>
+      <styles.superlativeContainer>
         {this.props.certOfExcellence ?
-          <styles.superlative><i className="fas fa-award" css={styles.faSuperlative}></i>Certificate of Excellence</styles.superlative> :
+          <styles.superlative onMouseOver={this.props.mouseOver} onMouseOut={this.props.mouseOut}><i className="fas fa-award" css={styles.faSuperlative}></i>Certificate of Excellence</styles.superlative> :
           null
         }
         {this.props.coePopup ?
@@ -24,11 +24,11 @@ class Superlatives extends React.Component {
         }
 
         {this.props.greenLeaders ?
-          <styles.superlative><i className="fab fa-envira" css={styles.faSuperlative}></i>GreenLeaders GreenPartner</styles.superlative> :
+          <styles.superlative onMouseOver={this.props.mouseOver} onMouseOut={this.props.mouseOut}><i className="fab fa-envira" css={styles.faSuperlative}></i>GreenLeaders GreenPartner</styles.superlative> :
           null
         }
-        {this.props.greenLeadersPopup ?
-          <styles.greenLeadersPopup>
+        {this.props.greenLeadersHover || this.props.greenLeadersPopupHover ?
+          <styles.greenLeadersPopup onMouseOver={this.props.handleGreenLeadersPopupMouseOver} onMouseLeave={this.props.handleGreenLeadersPopupMouseOut}>
             <div>
               <h4>GreenLeaders GreenPartner</h4>
               <ul>
@@ -37,8 +37,8 @@ class Superlatives extends React.Component {
                 <li>Linen reuse program</li>
                 <li>Energy-efficient lightbulbs</li>
                 <li>Tracks energy use</li>
-                <li>See all green practices</li>
               </ul>
+              <a href="https://www.tripadvisor.com/GreenLeaders" target="_blank" title="Your eco-friendly stay starts here.">See all green practices</a>
             </div>
           </styles.greenLeadersPopup> :
           null
