@@ -16,36 +16,52 @@ class RoomFeatures extends React.Component {
 
         <styles.columns>
           {this.props.roomFeatureIcon0 ?
-            <p><i className={this.state.roomFeatureIcons[0]}></i>{this.props.roomFeatureCopy0.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomFeatureIcons[0]}></i><p>{this.props.roomFeatureCopy0.split('.')[0]}</p>
+            </div> :
             null
           }
           {this.props.roomFeatureIcon1 ?
-            <p><i className={this.state.roomFeatureIcons[1]}></i>{this.props.roomFeatureCopy1.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomFeatureIcons[1]}></i><p>{this.props.roomFeatureCopy1.split('.')[0]}</p>
+            </div> :
             null
           }
           {this.props.roomFeatureIcon2 ?
-            <p><i className={this.state.roomFeatureIcons[2]}></i>{this.props.roomFeatureCopy2.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomFeatureIcons[2]}></i><p>{this.props.roomFeatureCopy2.split('.')[0]}</p>
+            </div> :
             null
           }
           {this.props.roomFeatureIcon3 ?
-            <p><i className={this.state.roomFeatureIcons[3]}></i>{this.props.roomFeatureCopy3.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomFeatureIcons[3]}></i><p>{this.props.roomFeatureCopy3.split('.')[0]}</p>
+            </div> :
             null
           }
 
           {this.props.roomFeatureIcon4 ?
-            <p><i className={this.state.roomFeatureIcons[4]}></i>{this.props.roomFeatureCopy4.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomFeatureIcons[4]}></i><p>{this.props.roomFeatureCopy4.split('.')[0]}</p>
+            </div> :
             null
           }
           {this.props.roomFeatureIcon5 ?
-            <p><i className={this.state.roomFeatureIcons[5]}></i>{this.props.roomFeatureCopy5.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomFeatureIcons[5]}></i><p>{this.props.roomFeatureCopy5.split('.')[0]}</p>
+            </div> :
             null
           }
           {this.props.roomFeatureIcon6 ?
-            <p><i className={this.state.roomFeatureIcons[6]}></i>{this.props.roomFeatureCopy6.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomFeatureIcons[6]}></i><p>{this.props.roomFeatureCopy6.split('.')[0]}</p>
+            </div> :
             null
           }
           {this.props.roomFeatureIcon7 ?
-            <p><i className={this.state.roomFeatureIcons[7]}></i>{this.props.roomFeatureCopy7.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomFeatureIcons[7]}></i><p>{this.props.roomFeatureCopy7.split('.')[0]}</p>
+            </div> :
             null
           }
         </styles.columns>

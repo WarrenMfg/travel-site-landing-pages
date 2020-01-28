@@ -16,19 +16,27 @@ class RoomTypes extends React.Component {
 
         <styles.columns>
           {this.props.roomTypeIcon0 ?
-            <p><i className={this.state.roomTypesIcons[0]}></i>{this.props.roomTypeCopy0.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomTypesIcons[0]}></i><p>{this.props.roomTypeCopy0.split('.')[0]}</p>
+            </div> :
             null
           }
           {this.props.roomTypeIcon1 ?
-            <p><i className={this.state.roomTypesIcons[1]}></i>{this.props.roomTypeCopy1.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomTypesIcons[1]}></i><p>{this.props.roomTypeCopy1.split('.')[0]}</p>
+            </div> :
             null
           }
           {this.props.roomTypeIcon2 ?
-            <p><i className={this.state.roomTypesIcons[2]}></i>{this.props.roomTypeCopy2.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomTypesIcons[2]}></i><p>{this.props.roomTypeCopy2.split('.')[0]}</p>
+            </div> :
             null
           }
           {this.props.roomTypeIcon3 ?
-            <p><i className={this.state.roomTypesIcons[3]}></i>{this.props.roomTypeCopy3.split('.')[0]}</p> :
+            <div>
+              <i className={this.state.roomTypesIcons[3]}></i><p>{this.props.roomTypeCopy3.split('.')[0]}</p>
+            </div> :
             null
           }
         </styles.columns>

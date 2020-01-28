@@ -8,6 +8,7 @@ import PropertyAmenities from './PropertyAmenities.jsx';
 import RoomFeatures from './RoomFeatures.jsx';
 import RoomTypes from './RoomTypes.jsx';
 import GoodToKnow from './GoodToKnow.jsx';
+import HotelLinks from './HotelLinks.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -66,7 +67,9 @@ class App extends React.Component {
       roomTypeIcon3: null,
       roomTypeCopy3: null,
       hotelClass: null,
-      hotelStyle: null
+      hotelStyle: null,
+      isSpecialOffered: null,
+      special: null
     };
     this.handleSuperlativeMouseOver = this.handleSuperlativeMouseOver.bind(this);
     this.handleSuperlativeMouseOut = this.handleSuperlativeMouseOut.bind(this);
@@ -132,7 +135,9 @@ class App extends React.Component {
           roomTypeIcon3,
           roomTypeCopy3,
           hotelClass,
-          hotelStyle
+          hotelStyle,
+          isSpecialOffered,
+          special
         } = data;
 
         this.setState({
@@ -186,7 +191,9 @@ class App extends React.Component {
           roomTypeIcon3,
           roomTypeCopy3,
           hotelClass,
-          hotelStyle
+          hotelStyle,
+          isSpecialOffered,
+          special
         });
       })
       .catch(err => console.log('error at App.jsx componentDidMount', err));
@@ -312,6 +319,11 @@ class App extends React.Component {
               <GoodToKnow
                 hotelClass={this.state.hotelClass}
                 hotelStyle={this.state.hotelStyle}
+              />
+
+              <HotelLinks
+                isSpecialOffered={this.state.isSpecialOffered}
+                special={this.state.special}
               />
             </styles.right>
 

@@ -63,8 +63,8 @@ CREATE TABLE `about` (
   `hotelClass` float(2, 1) NOT NULL,
   `hotelStyle` text NOT NULL,
 
-  `hotelWebsite` varchar(255) NOT NULL,
-  `hotelDeals` varchar(255) NOT NULL
+  `isSpecialOffered` tinyint NOT NULL,
+  `special` varchar(50) NOT NULL
 );
 
 -- mysql -u root < database/schema.sql

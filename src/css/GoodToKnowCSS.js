@@ -4,7 +4,7 @@ const styles = {
   goodToKnowContainer: styled.div({
     position: 'relative',
     borderBottom: '1px solid rgb(229, 229, 229)',
-    paddingBottom: '14px',
+    paddingBottom: '17px',
     '& h4': {
       margin: '0',
       paddingTop: '25px'
@@ -15,7 +15,8 @@ const styles = {
     },
     '& i': {
       '&:hover': {
-        color: 'rgb(0, 129, 113)'
+        color: 'rgb(0, 129, 113)',
+        cursor: 'pointer'
       }
     }
   }),
