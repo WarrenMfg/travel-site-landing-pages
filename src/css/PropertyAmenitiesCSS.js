@@ -20,8 +20,8 @@ const styles = {
       display: 'grid',
       gridTemplateColumns: '.5fr 3fr',
       gridTemplateAreas: '"icon text"',
-      breakInside: 'avoid',
-      alignItems: 'center'
+      breakInside: 'avoid'//,
+      // alignItems: 'center'
     },
     '& i': {
       gridArea: 'icon',
@@ -30,7 +30,8 @@ const styles = {
     '& p': {
       gridArea: 'text',
       fontSize: '14px',
-      margin: '8px 0 8px 10px'
+      // margin: '8px 0 8px 10px'
+      margin: '0 0 16px 10px'
     }
   }),
 
