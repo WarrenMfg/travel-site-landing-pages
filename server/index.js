@@ -10,3 +10,5 @@ app.use('/api/about', router);
 app.use('/:id', express.static(__dirname + '/../public'));
 
 app.listen(process.env.PORT || 313, console.log('Listening on port 313'));
+
+module.exports = app;
