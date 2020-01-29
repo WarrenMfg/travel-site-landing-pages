@@ -41,7 +41,25 @@ const styles = {
     margin: '20px 0',
     width: 'fit-content',
     color: 'rgb(0, 129, 113)',
-    cursor: 'pointer'
+    cursor: 'pointer',
+    '& a': {
+      '&:link': {
+        color: 'rgb(0, 129, 113)',
+        textDecoration: 'none'
+      },
+      '&:visited': {
+        color: 'rgb(0, 129, 113)',
+        textDecoration: 'none'
+      },
+      '&:hover': {
+        color: 'rgb(0, 129, 113)',
+        textDecoration: 'none'
+      },
+      '&:active': {
+        color: 'rgb(0, 129, 113)',
+        textDecoration: 'none'
+      }
+    }
   })
 };
 

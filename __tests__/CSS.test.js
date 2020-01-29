@@ -8,23 +8,25 @@ import RatingsCirclesCSS from '../src/css/RatingsCirclesCSS.js';
 import RatingsCSS from '../src/css/RatingsCSS.js';
 import RoomFeaturesCSS from '../src/css/RoomFeaturesCSS.js';
 import RoomTypesCSS from '../src/css/RoomTypesCSS.js';
+import ShowMoreCSS from '../src/css/ShowMoreCSS.js';
 import SuperlativesCSS from '../src/css/SuperlativesCSS.js';
 
-const cssFiles = [AboutCopyCSS, AppCSS, GoodToKnowCSS, HotelClassCSS, HotelLinksCSS, PropertyAmenitiesCSS, RatingsCirclesCSS, RatingsCSS, RoomFeaturesCSS, RoomTypesCSS, SuperlativesCSS];
+const cssFiles = [AboutCopyCSS, AppCSS, GoodToKnowCSS, HotelClassCSS, HotelLinksCSS, PropertyAmenitiesCSS, RatingsCirclesCSS, RatingsCSS, RoomFeaturesCSS, RoomTypesCSS, ShowMoreCSS, SuperlativesCSS];
+const cssFileNames = ['AboutCopyCSS', 'AppCSS', 'GoodToKnowCSS', 'HotelClassCSS', 'HotelLinksCSS', 'PropertyAmenitiesCSS', 'RatingsCirclesCSS', 'RatingsCSS', 'RoomFeaturesCSS', 'RoomTypesCSS', 'ShowMoreCSS', 'SuperlativesCSS'];
 
 for (let i = 0; i < cssFiles.length; i++) {
   describe('CSS files', () => {
 
     // Jest
-    test('it should exist', () => {
+    test(`${cssFileNames[i]} should exist`, () => {
       expect(cssFiles[i]).toBeDefined();
     });
 
-    test('it should be an object', () => {
+    test(`${cssFileNames[i]} should be an object`, () => {
       expect(typeof cssFiles[i]).toBe('object');
     });
 
-    test('it should contain properties', () => {
+    test(`${cssFileNames[i]} should contain properties`, () => {
       const keysArray = Object.keys(cssFiles[i]);
       expect(keysArray.length).toBeGreaterThan(0);
     });

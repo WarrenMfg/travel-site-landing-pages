@@ -42,6 +42,54 @@ class App extends React.Component {
       amenityCopy6: null,
       amenityIcon7: null,
       amenityCopy7: null,
+      amenityIcon8: null,
+      amenityCopy8: null,
+      amenityIcon9: null,
+      amenityCopy9: null,
+      amenityIcon10: null,
+      amenityCopy10: null,
+      amenityIcon11: null,
+      amenityCopy11: null,
+      amenityIcon12: null,
+      amenityCopy12: null,
+      amenityIcon13: null,
+      amenityCopy13: null,
+      amenityIcon14: null,
+      amenityCopy14: null,
+      amenityIcon15: null,
+      amenityCopy15: null,
+      amenityIcon16: null,
+      amenityCopy16: null,
+      amenityIcon17: null,
+      amenityCopy17: null,
+      amenityIcon18: null,
+      amenityCopy18: null,
+      amenityIcon19: null,
+      amenityCopy19: null,
+      amenityIcon20: null,
+      amenityCopy20: null,
+      amenityIcon21: null,
+      amenityCopy21: null,
+      amenityIcon22: null,
+      amenityCopy22: null,
+      amenityIcon23: null,
+      amenityCopy23: null,
+      amenityIcon24: null,
+      amenityCopy24: null,
+      amenityIcon25: null,
+      amenityCopy25: null,
+      amenityIcon26: null,
+      amenityCopy26: null,
+      amenityIcon27: null,
+      amenityCopy27: null,
+      amenityIcon28: null,
+      amenityCopy28: null,
+      amenityIcon29: null,
+      amenityCopy29: null,
+      amenityIcon30: null,
+      amenityCopy30: null,
+      amenityIcon31: null,
+      amenityCopy31: null,
       roomFeatureIcon0: null,
       roomFeatureCopy0: null,
       roomFeatureIcon1: null,
@@ -110,6 +158,54 @@ class App extends React.Component {
           amenityCopy6,
           amenityIcon7,
           amenityCopy7,
+          amenityIcon8,
+          amenityCopy8,
+          amenityIcon9,
+          amenityCopy9,
+          amenityIcon10,
+          amenityCopy10,
+          amenityIcon11,
+          amenityCopy11,
+          amenityIcon12,
+          amenityCopy12,
+          amenityIcon13,
+          amenityCopy13,
+          amenityIcon14,
+          amenityCopy14,
+          amenityIcon15,
+          amenityCopy15,
+          amenityIcon16,
+          amenityCopy16,
+          amenityIcon17,
+          amenityCopy17,
+          amenityIcon18,
+          amenityCopy18,
+          amenityIcon19,
+          amenityCopy19,
+          amenityIcon20,
+          amenityCopy20,
+          amenityIcon21,
+          amenityCopy21,
+          amenityIcon22,
+          amenityCopy22,
+          amenityIcon23,
+          amenityCopy23,
+          amenityIcon24,
+          amenityCopy24,
+          amenityIcon25,
+          amenityCopy25,
+          amenityIcon26,
+          amenityCopy26,
+          amenityIcon27,
+          amenityCopy27,
+          amenityIcon28,
+          amenityCopy28,
+          amenityIcon29,
+          amenityCopy29,
+          amenityIcon30,
+          amenityCopy30,
+          amenityIcon31,
+          amenityCopy31,
           roomFeatureIcon0,
           roomFeatureCopy0,
           roomFeatureIcon1,
@@ -166,6 +262,54 @@ class App extends React.Component {
           amenityCopy6,
           amenityIcon7,
           amenityCopy7,
+          amenityIcon8,
+          amenityCopy8,
+          amenityIcon9,
+          amenityCopy9,
+          amenityIcon10,
+          amenityCopy10,
+          amenityIcon11,
+          amenityCopy11,
+          amenityIcon12,
+          amenityCopy12,
+          amenityIcon13,
+          amenityCopy13,
+          amenityIcon14,
+          amenityCopy14,
+          amenityIcon15,
+          amenityCopy15,
+          amenityIcon16,
+          amenityCopy16,
+          amenityIcon17,
+          amenityCopy17,
+          amenityIcon18,
+          amenityCopy18,
+          amenityIcon19,
+          amenityCopy19,
+          amenityIcon20,
+          amenityCopy20,
+          amenityIcon21,
+          amenityCopy21,
+          amenityIcon22,
+          amenityCopy22,
+          amenityIcon23,
+          amenityCopy23,
+          amenityIcon24,
+          amenityCopy24,
+          amenityIcon25,
+          amenityCopy25,
+          amenityIcon26,
+          amenityCopy26,
+          amenityIcon27,
+          amenityCopy27,
+          amenityIcon28,
+          amenityCopy28,
+          amenityIcon29,
+          amenityCopy29,
+          amenityIcon30,
+          amenityCopy30,
+          amenityIcon31,
+          amenityCopy31,
           roomFeatureIcon0,
           roomFeatureCopy0,
           roomFeatureIcon1,
@@ -284,6 +428,83 @@ class App extends React.Component {
                 amenityCopy6={this.state.amenityCopy6}
                 amenityIcon7={this.state.amenityIcon7}
                 amenityCopy7={this.state.amenityCopy7}
+
+                amenityIcon8={this.state.amenityIcon8}
+                amenityCopy8={this.state.amenityCopy8}
+                amenityIcon9={this.state.amenityIcon9}
+                amenityCopy9={this.state.amenityCopy9}
+                amenityIcon10={this.state.amenityIcon10}
+                amenityCopy10={this.state.amenityCopy10}
+                amenityIcon11={this.state.amenityIcon11}
+                amenityCopy11={this.state.amenityCopy11}
+                amenityIcon12={this.state.amenityIcon12}
+                amenityCopy12={this.state.amenityCopy12}
+                amenityIcon13={this.state.amenityIcon13}
+                amenityCopy13={this.state.amenityCopy13}
+                amenityIcon14={this.state.amenityIcon14}
+                amenityCopy14={this.state.amenityCopy14}
+                amenityIcon15={this.state.amenityIcon15}
+                amenityCopy15={this.state.amenityCopy15}
+
+                amenityIcon16={this.state.amenityIcon16}
+                amenityCopy16={this.state.amenityCopy16}
+                amenityIcon17={this.state.amenityIcon17}
+                amenityCopy17={this.state.amenityCopy17}
+                amenityIcon18={this.state.amenityIcon18}
+                amenityCopy18={this.state.amenityCopy18}
+                amenityIcon19={this.state.amenityIcon19}
+                amenityCopy19={this.state.amenityCopy19}
+                amenityIcon20={this.state.amenityIcon20}
+                amenityCopy20={this.state.amenityCopy20}
+                amenityIcon21={this.state.amenityIcon21}
+                amenityCopy21={this.state.amenityCopy21}
+                amenityIcon22={this.state.amenityIcon22}
+                amenityCopy22={this.state.amenityCopy22}
+                amenityIcon23={this.state.amenityIcon23}
+                amenityCopy23={this.state.amenityCopy23}
+
+                amenityIcon24={this.state.amenityIcon24}
+                amenityCopy24={this.state.amenityCopy24}
+                amenityIcon25={this.state.amenityIcon25}
+                amenityCopy25={this.state.amenityCopy25}
+                amenityIcon26={this.state.amenityIcon26}
+                amenityCopy26={this.state.amenityCopy26}
+                amenityIcon27={this.state.amenityIcon27}
+                amenityCopy27={this.state.amenityCopy27}
+                amenityIcon28={this.state.amenityIcon28}
+                amenityCopy28={this.state.amenityCopy28}
+                amenityIcon29={this.state.amenityIcon29}
+                amenityCopy29={this.state.amenityCopy29}
+                amenityIcon30={this.state.amenityIcon30}
+                amenityCopy30={this.state.amenityCopy30}
+                amenityIcon31={this.state.amenityIcon31}
+                amenityCopy31={this.state.amenityCopy31}
+
+                roomFeatureIcon0={this.state.roomFeatureIcon0}
+                roomFeatureCopy0={this.state.roomFeatureCopy0}
+                roomFeatureIcon1={this.state.roomFeatureIcon1}
+                roomFeatureCopy1={this.state.roomFeatureCopy1}
+                roomFeatureIcon2={this.state.roomFeatureIcon2}
+                roomFeatureCopy2={this.state.roomFeatureCopy2}
+                roomFeatureIcon3={this.state.roomFeatureIcon3}
+                roomFeatureCopy3={this.state.roomFeatureCopy3}
+                roomFeatureIcon4={this.state.roomFeatureIcon4}
+                roomFeatureCopy4={this.state.roomFeatureCopy4}
+                roomFeatureIcon5={this.state.roomFeatureIcon5}
+                roomFeatureCopy5={this.state.roomFeatureCopy5}
+                roomFeatureIcon6={this.state.roomFeatureIcon6}
+                roomFeatureCopy6={this.state.roomFeatureCopy6}
+                roomFeatureIcon7={this.state.roomFeatureIcon7}
+                roomFeatureCopy7={this.state.roomFeatureCopy7}
+
+                roomTypeIcon0={this.state.roomTypeIcon0}
+                roomTypeCopy0={this.state.roomTypeCopy0}
+                roomTypeIcon1={this.state.roomTypeIcon1}
+                roomTypeCopy1={this.state.roomTypeCopy1}
+                roomTypeIcon2={this.state.roomTypeIcon2}
+                roomTypeCopy2={this.state.roomTypeCopy2}
+                roomTypeIcon3={this.state.roomTypeIcon3}
+                roomTypeCopy3={this.state.roomTypeCopy3}
               />
 
               <RoomFeatures

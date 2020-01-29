@@ -41,7 +41,7 @@ class RoomTypes extends React.Component {
           }
         </styles.columns>
 
-        <styles.seeMore>See more room details</styles.seeMore>
+        <styles.seeMore><a href="https://www.orbitz.com/" target="_blank">See more room details</a></styles.seeMore>
       </styles.roomTypesContainer>
     );
   }

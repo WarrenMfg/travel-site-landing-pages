@@ -14,7 +14,7 @@ describe('AboutCopy.jsx', () => {
 
   test('it should have state', () => {
     const newAboutCopyState = new AboutCopy();
-    const currentAboutCopyState = {expand: 1};
+    const currentAboutCopyState = {expand: 1, expandCSS: {}};
     expect(newAboutCopyState.state).toEqual(currentAboutCopyState);
   });
 

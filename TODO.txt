@@ -1,3 +1,1 @@
 - add tests for Modal and ModalCSS
-- augment schema.sql with more amenities
-  - pad schema.sql with higher numbers
