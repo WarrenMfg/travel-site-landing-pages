@@ -40,11 +40,16 @@ jobs:
           key: v1-dependencies-{{ checksum "package.json" }}
 
       # run tests!
-      - run: npm test
+      # - run: npm test
+      - run:
+          name: Run tests with JUnit as reporter
+          command: jest --ci --runInBand --reporters=default --reporters=jest-junit
+          environment:
+            JEST_JUNIT_OUTPUT_DIR: "test-results/test-results.xml"
 
       - store_artifacts:
-          path: test-results.xml
+          path: test-results
           prefix: tests
 
       - store_test_results:
-          path: test-results.xml
+          path: test-results
