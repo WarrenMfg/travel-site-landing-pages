@@ -13,7 +13,10 @@ describe('PropertyAmenities.jsx', () => {
 
   test('it should have state', () => {
     const newPropertyAmenitiesState = new PropertyAmenities();
-    const currentPropertyAmenitiesState = {amenityIcons: ['fas fa-biking', 'fas fa-fish', 'fas fa-ice-cream', 'fas fa-swimmer', 'fas fa-volleyball-ball', 'fas fa-caravan', 'fas fa-glass-martini-alt', 'fas fa-plane']};
+    const currentPropertyAmenitiesState = {
+      amenityIcons: ['fas fa-biking', 'fas fa-fish', 'fas fa-ice-cream', 'fas fa-swimmer', 'fas fa-volleyball-ball', 'fas fa-caravan', 'fas fa-glass-martini-alt', 'fas fa-plane'],
+      modal: false
+    };
     expect(newPropertyAmenitiesState.state).toEqual(currentPropertyAmenitiesState);
   });
 

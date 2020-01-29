@@ -6,7 +6,8 @@ class PropertyAmenities extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      amenityIcons: ['fas fa-biking', 'fas fa-fish', 'fas fa-ice-cream', 'fas fa-swimmer', 'fas fa-volleyball-ball', 'fas fa-caravan', 'fas fa-glass-martini-alt', 'fas fa-plane']
+      amenityIcons: ['fas fa-biking', 'fas fa-fish', 'fas fa-ice-cream', 'fas fa-swimmer', 'fas fa-volleyball-ball', 'fas fa-caravan', 'fas fa-glass-martini-alt', 'fas fa-plane'],
+      modal: false
     };
   }
 
@@ -67,6 +68,10 @@ class PropertyAmenities extends React.Component {
         </styles.columns>
 
         <styles.showMore>Show more</styles.showMore>
+        {this.state.modal ?
+          <ShowMore /> :
+          null
+        }
       </styles.propertyAmenitiesContainer>
     );
   }
