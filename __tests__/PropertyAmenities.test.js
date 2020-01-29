@@ -1,4 +1,6 @@
 import PropertyAmenities from '../src/components/PropertyAmenities.jsx';
+import {render} from 'enzyme';
+
 
 describe('PropertyAmenities.jsx', () => {
   test('it should exist', () => {
@@ -13,5 +15,16 @@ describe('PropertyAmenities.jsx', () => {
     const newPropertyAmenitiesState = new PropertyAmenities();
     const currentPropertyAmenitiesState = {amenityIcons: ['fas fa-biking', 'fas fa-fish', 'fas fa-ice-cream', 'fas fa-swimmer', 'fas fa-volleyball-ball', 'fas fa-caravan', 'fas fa-glass-martini-alt', 'fas fa-plane']};
     expect(newPropertyAmenitiesState.state).toEqual(currentPropertyAmenitiesState);
+  });
+
+  // Enzyme
+  it('it should render', () => {
+    const wrapper = render(<PropertyAmenities />);
+    expect(wrapper['0']).toHaveProperty('name', 'div');
+  });
+
+  it('it should have three children', () => {
+    const wrapper = render(<PropertyAmenities />);
+    expect(wrapper['0'].children).toHaveLength(3);
   });
 });

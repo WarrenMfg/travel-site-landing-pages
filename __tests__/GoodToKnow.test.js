@@ -1,4 +1,5 @@
 import GoodToKnow from '../src/components/GoodToKnow.jsx';
+import {render} from 'enzyme';
 
 describe('GoodToKnow.jsx', () => {
   test('it should exist', () => {
@@ -13,5 +14,16 @@ describe('GoodToKnow.jsx', () => {
     const newGoodToKnowState = new GoodToKnow();
     const currentGoodToKnowState = {infoPopup: false};
     expect(newGoodToKnowState.state).toEqual(currentGoodToKnowState);
+  });
+
+  // Enzyme
+  it('it should render', () => {
+    const wrapper = render(<GoodToKnow />);
+    expect(wrapper['0']).toHaveProperty('name', 'div');
+  });
+
+  it('it should have four children', () => {
+    const wrapper = render(<GoodToKnow />);
+    expect(wrapper['0'].children).toHaveLength(4); // because ternaries and HotelClass return null
   });
 });

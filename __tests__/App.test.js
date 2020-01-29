@@ -1,6 +1,9 @@
 import App from '../src/components/App.jsx';
+import {render} from 'enzyme';
 
 describe('App.jsx', () => {
+
+  // Jest
   test('it should exist', () => {
     expect(new App()).toBeDefined();
   });
@@ -71,5 +74,16 @@ describe('App.jsx', () => {
     };
 
     expect(newAppState.state).toEqual(currentAppState);
+  });
+
+  // Enzyme
+  it('it should render', () => {
+    const wrapper = render(<App />);
+    expect(wrapper['0']).toHaveProperty('name', 'div');
+  });
+
+  it('it should have one child', () => {
+    const wrapper = render(<App />);
+    expect(wrapper['0'].children).toHaveLength(1);
   });
 });

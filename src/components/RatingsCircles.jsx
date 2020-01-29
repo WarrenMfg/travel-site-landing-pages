@@ -11,6 +11,8 @@ class RatingsCircles extends React.Component {
     let r = this.props.rating;
 
     switch (true) {
+    case this.props.rating === undefined: // for tests
+      return null;
     case r === 0:
       return (
         <styles.circleContainer>
