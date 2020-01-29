@@ -21,7 +21,19 @@ const styles = {
     height: '75%',
     backgroundColor: 'rgba(255, 255, 255, 1)',
     boxShadow: '0 0 40px black',
-    padding: '40px'
+    padding: '40px',
+    '& h2': {
+      color: 'black'
+    }
+  }),
+
+  close: styled.div({
+    position: 'fixed',
+    top: '2.5%',
+    right: '5%',
+    fontSize: '24px',
+    color: 'rgb(0, 129, 113)',
+    cursor: 'pointer'
   }),
 
   tabContainer: styled.div({
@@ -61,7 +73,29 @@ const styles = {
     '&:hover': {
       color: 'rgb(0, 129, 113)'
     }
-  }
+  },
+
+  columns: styled.div({
+    columns: '2 110px',
+    columnFill: 'auto',
+    breakInside: 'avoid',
+    paddingTop: '40px',
+    '& div': {
+      display: 'grid',
+      gridTemplateColumns: '.5fr 3fr',
+      gridTemplateAreas: '"icon text"',
+      breakInside: 'avoid'
+    },
+    '& i': {
+      gridArea: 'icon',
+      width: '16px'
+    },
+    '& p': {
+      gridArea: 'text',
+      fontSize: '14px',
+      margin: '0 0 16px 10px'
+    }
+  }),
 };
 
 export default styles;

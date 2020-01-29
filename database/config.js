@@ -49,6 +49,40 @@ const seed = () => {
   let amenityIcon15 = faker.random.number(9);
   let amenityCopy15 = faker.lorem.sentence(2);
 
+  let amenityIcon16 = faker.random.number(9);
+  let amenityCopy16 = faker.lorem.sentence(2);
+  let amenityIcon17 = faker.random.number(9);
+  let amenityCopy17 = faker.lorem.sentence(2);
+  let amenityIcon18 = faker.random.number(9);
+  let amenityCopy18 = faker.lorem.sentence(2);
+  let amenityIcon19 = faker.random.number(9);
+  let amenityCopy19 = faker.lorem.sentence(2);
+  let amenityIcon20 = faker.random.number(9);
+  let amenityCopy20 = faker.lorem.sentence(2);
+  let amenityIcon21 = faker.random.number(9);
+  let amenityCopy21 = faker.lorem.sentence(2);
+  let amenityIcon22 = faker.random.number(9);
+  let amenityCopy22 = faker.lorem.sentence(2);
+  let amenityIcon23 = faker.random.number(9);
+  let amenityCopy23 = faker.lorem.sentence(2);
+
+  let amenityIcon24 = faker.random.number(9);
+  let amenityCopy24 = faker.lorem.sentence(2);
+  let amenityIcon25 = faker.random.number(9);
+  let amenityCopy25 = faker.lorem.sentence(2);
+  let amenityIcon26 = faker.random.number(9);
+  let amenityCopy26 = faker.lorem.sentence(2);
+  let amenityIcon27 = faker.random.number(9);
+  let amenityCopy27 = faker.lorem.sentence(2);
+  let amenityIcon28 = faker.random.number(9);
+  let amenityCopy28 = faker.lorem.sentence(2);
+  let amenityIcon29 = faker.random.number(9);
+  let amenityCopy29 = faker.lorem.sentence(2);
+  let amenityIcon30 = faker.random.number(9);
+  let amenityCopy30 = faker.lorem.sentence(2);
+  let amenityIcon31 = faker.random.number(9);
+  let amenityCopy31 = faker.lorem.sentence(2);
+
   let roomFeatureIcon0 = faker.random.number(9);
   let roomFeatureCopy0 = faker.lorem.sentence(2);
   let roomFeatureIcon1 = faker.random.number(9);
@@ -122,6 +156,38 @@ const seed = () => {
     amenityCopy14,
     amenityIcon15,
     amenityCopy15,
+    amenityIcon16,
+    amenityCopy16,
+    amenityIcon17,
+    amenityCopy17,
+    amenityIcon18,
+    amenityCopy18,
+    amenityIcon19,
+    amenityCopy19,
+    amenityIcon20,
+    amenityCopy20,
+    amenityIcon21,
+    amenityCopy21,
+    amenityIcon22,
+    amenityCopy22,
+    amenityIcon23,
+    amenityCopy23,
+    amenityIcon24,
+    amenityCopy24,
+    amenityIcon25,
+    amenityCopy25,
+    amenityIcon26,
+    amenityCopy26,
+    amenityIcon27,
+    amenityCopy27,
+    amenityIcon28,
+    amenityCopy28,
+    amenityIcon29,
+    amenityCopy29,
+    amenityIcon30,
+    amenityCopy30,
+    amenityIcon31,
+    amenityCopy31,
     roomFeatureIcon0,
     roomFeatureCopy0,
     roomFeatureIcon1,
@@ -152,7 +218,7 @@ const seed = () => {
     special
   ];
 
-  connection.query('INSERT INTO about (average, location, cleanliness, service, value, certOfExcellence, greenLeaders, aboutCopy, amenityIcon0, amenityCopy0, amenityIcon1, amenityCopy1, amenityIcon2, amenityCopy2, amenityIcon3, amenityCopy3, amenityIcon4, amenityCopy4, amenityIcon5, amenityCopy5, amenityIcon6, amenityCopy6, amenityIcon7, amenityCopy7, amenityIcon8, amenityCopy8, amenityIcon9, amenityCopy9, amenityIcon10, amenityCopy10, amenityIcon11, amenityCopy11, amenityIcon12, amenityCopy12, amenityIcon13, amenityCopy13, amenityIcon14, amenityCopy14, amenityIcon15, amenityCopy15, roomFeatureIcon0, roomFeatureCopy0, roomFeatureIcon1, roomFeatureCopy1, roomFeatureIcon2, roomFeatureCopy2, roomFeatureIcon3, roomFeatureCopy3, roomFeatureIcon4, roomFeatureCopy4, roomFeatureIcon5, roomFeatureCopy5, roomFeatureIcon6, roomFeatureCopy6, roomFeatureIcon7, roomFeatureCopy7, roomTypeIcon0, roomTypeCopy0, roomTypeIcon1, roomTypeCopy1, roomTypeIcon2, roomTypeCopy2, roomTypeIcon3, roomTypeCopy3, hotelClass, hotelStyle, isSpecialOffered, special) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', params, (err, data) => {
+  connection.query('INSERT INTO about (average, location, cleanliness, service, value, certOfExcellence, greenLeaders, aboutCopy, amenityIcon0, amenityCopy0, amenityIcon1, amenityCopy1, amenityIcon2, amenityCopy2, amenityIcon3, amenityCopy3, amenityIcon4, amenityCopy4, amenityIcon5, amenityCopy5, amenityIcon6, amenityCopy6, amenityIcon7, amenityCopy7, amenityIcon8, amenityCopy8, amenityIcon9, amenityCopy9, amenityIcon10, amenityCopy10, amenityIcon11, amenityCopy11, amenityIcon12, amenityCopy12, amenityIcon13, amenityCopy13, amenityIcon14, amenityCopy14, amenityIcon15, amenityCopy15, amenityIcon16, amenityCopy16, amenityIcon17, amenityCopy17, amenityIcon18, amenityCopy18, amenityIcon19, amenityCopy19, amenityIcon20, amenityCopy20, amenityIcon21, amenityCopy21, amenityIcon22, amenityCopy22, amenityIcon23, amenityCopy23, amenityIcon24, amenityCopy24, amenityIcon25, amenityCopy25, amenityIcon26, amenityCopy26, amenityIcon27, amenityCopy27, amenityIcon28, amenityCopy28, amenityIcon29, amenityCopy29, amenityIcon30, amenityCopy30, amenityIcon31, amenityCopy31, roomFeatureIcon0, roomFeatureCopy0, roomFeatureIcon1, roomFeatureCopy1, roomFeatureIcon2, roomFeatureCopy2, roomFeatureIcon3, roomFeatureCopy3, roomFeatureIcon4, roomFeatureCopy4, roomFeatureIcon5, roomFeatureCopy5, roomFeatureIcon6, roomFeatureCopy6, roomFeatureIcon7, roomFeatureCopy7, roomTypeIcon0, roomTypeCopy0, roomTypeIcon1, roomTypeCopy1, roomTypeIcon2, roomTypeCopy2, roomTypeIcon3, roomTypeCopy3, hotelClass, hotelStyle, isSpecialOffered, special) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', params, (err, data) => {
     if (err) {
       console.log('error at database/config.js INSERT INTO', err);
     } else {

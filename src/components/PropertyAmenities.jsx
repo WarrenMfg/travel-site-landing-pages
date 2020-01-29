@@ -86,6 +86,7 @@ class PropertyAmenities extends React.Component {
 
         {this.state.modal ?
           <ShowMore
+            handleCloseModal={this.handleSeeMore}
             amenityIcon0={this.props.amenityIcon0}
             amenityCopy0={this.props.amenityCopy0}
             amenityIcon1={this.props.amenityIcon1}
@@ -119,6 +120,40 @@ class PropertyAmenities extends React.Component {
             amenityCopy14={this.props.amenityCopy14}
             amenityIcon15={this.props.amenityIcon15}
             amenityCopy15={this.props.amenityCopy15}
+
+            amenityIcon16={this.props.amenityIcon16}
+            amenityCopy16={this.props.amenityCopy16}
+            amenityIcon17={this.props.amenityIcon17}
+            amenityCopy17={this.props.amenityCopy17}
+            amenityIcon18={this.props.amenityIcon18}
+            amenityCopy18={this.props.amenityCopy18}
+            amenityIcon19={this.props.amenityIcon19}
+            amenityCopy19={this.props.amenityCopy19}
+            amenityIcon20={this.props.amenityIcon20}
+            amenityCopy20={this.props.amenityCopy20}
+            amenityIcon21={this.props.amenityIcon21}
+            amenityCopy21={this.props.amenityCopy21}
+            amenityIcon22={this.props.amenityIcon22}
+            amenityCopy22={this.props.amenityCopy22}
+            amenityIcon23={this.props.amenityIcon23}
+            amenityCopy23={this.props.amenityCopy23}
+
+            amenityIcon24={this.props.amenityIcon24}
+            amenityCopy24={this.props.amenityCopy24}
+            amenityIcon25={this.props.amenityIcon25}
+            amenityCopy25={this.props.amenityCopy25}
+            amenityIcon26={this.props.amenityIcon26}
+            amenityCopy26={this.props.amenityCopy26}
+            amenityIcon27={this.props.amenityIcon27}
+            amenityCopy27={this.props.amenityCopy27}
+            amenityIcon28={this.props.amenityIcon28}
+            amenityCopy28={this.props.amenityCopy28}
+            amenityIcon29={this.props.amenityIcon29}
+            amenityCopy29={this.props.amenityCopy29}
+            amenityIcon30={this.props.amenityIcon30}
+            amenityCopy30={this.props.amenityCopy30}
+            amenityIcon31={this.props.amenityIcon31}
+            amenityCopy31={this.props.amenityCopy31}
 
             roomFeatureIcon0={this.props.roomFeatureIcon0}
             roomFeatureCopy0={this.props.roomFeatureCopy0}
