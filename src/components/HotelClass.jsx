@@ -14,6 +14,8 @@ class HotelClass extends React.Component {
     const r = this.props.hotelClass;
 
     switch (true) {
+    case r === undefined: // for tests
+      return null;
     case r === 0:
       return (
         <div css={styles.div}>

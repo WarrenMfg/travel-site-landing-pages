@@ -1,10 +1,16 @@
 {
   "name": "about",
+  "jest": {
+    "verbose": true,
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.js"
+    ]
+  },
   "version": "1.0.0",
   "description": "TripAdvisor About Widget",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server/index.js",
     "start:dev": "nodemon server/index.js",
     "postinstall": "curl -s https://raw.githubusercontent.com/reactorcore/pomander/master/bin/install | bash",
@@ -27,9 +33,12 @@
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^6.8.0",
     "eslint-config-hackreactor": "github:reactorcore/eslint-config-hackreactor",
     "eslint-plugin-react": "^7.18.0",
+    "jest": "^25.1.0",
     "nodemon": "^2.0.2",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
