@@ -9,6 +9,7 @@ import RoomFeatures from './RoomFeatures.jsx';
 import RoomTypes from './RoomTypes.jsx';
 import GoodToKnow from './GoodToKnow.jsx';
 import HotelLinks from './HotelLinks.jsx';
+import Carousel from './Carousel.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -406,7 +407,9 @@ class App extends React.Component {
               />
 
               {/* IMAGE CAROUSEL IF TIME PERMITS */}
-              <styles.imagePlaceholder></styles.imagePlaceholder>
+              {/* <styles.imagePlaceholder></styles.imagePlaceholder> */}
+              <Carousel />
+
             </styles.left>
 
 

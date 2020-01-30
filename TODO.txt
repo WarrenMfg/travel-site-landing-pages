@@ -1,1 +1,6 @@
-- add tests for Modal and ModalCSS
+- upload image folders
+- write script for urls
+- reseed database (and fix domino effect) with urls
+- add tests for Carousel and CarouselCSS
+- add state and click handlers for image changes
+- add main image next and back buttons
