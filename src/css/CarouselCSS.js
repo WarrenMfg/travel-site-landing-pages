@@ -20,6 +20,40 @@ const styles = {
     justifyContent: 'space-between',
     width: '100%',
     height: '50px'
+  }),
+
+  leftChevron: styled.div({
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    left: '0',
+    top: '50%',
+    width: '50px',
+    height: '50px',
+    transform: 'translate(0, -50%)',
+    backgroundColor: 'rgba(0, 0, 0, 0.25)',
+    cursor: 'pointer',
+    '& i': {
+      color: 'white'
+    }
+  }),
+
+  rightChevron: styled.div({
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    right: '0',
+    top: '50%',
+    width: '50px',
+    height: '50px',
+    transform: 'translate(0, -50%)',
+    backgroundColor: 'rgba(0, 0, 0, 0.25)',
+    cursor: 'pointer',
+    '& i': {
+      color: 'white'
+    }
   })
 
 };

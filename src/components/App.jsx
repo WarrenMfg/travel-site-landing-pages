@@ -427,8 +427,6 @@ class App extends React.Component {
                 copy={this.state.aboutCopy}
               />
 
-              {/* IMAGE CAROUSEL IF TIME PERMITS */}
-              {/* <styles.imagePlaceholder></styles.imagePlaceholder> */}
               <Carousel
                 image0={this.state.image0}
                 image1={this.state.image1}

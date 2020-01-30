@@ -1,2 +1,1 @@
 - add tests for Carousel and CarouselCSS
-- add main image next and back buttons

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="104" failures="0" time="4.389">
+  <testsuite name="RoomTypes.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.195" tests="5">
+    <testcase classname="RoomTypes.jsx it should exist" name="RoomTypes.jsx it should exist" time="0.004">
+    </testcase>
+    <testcase classname="RoomTypes.jsx it should be an instance of a class" name="RoomTypes.jsx it should be an instance of a class" time="0.001">
+    </testcase>
+    <testcase classname="RoomTypes.jsx it should have state" name="RoomTypes.jsx it should have state" time="0.034">
+    </testcase>
+    <testcase classname="RoomTypes.jsx it should render" name="RoomTypes.jsx it should render" time="0.08">
+    </testcase>
+    <testcase classname="RoomTypes.jsx it should have three children" name="RoomTypes.jsx it should have three children" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="PropertyAmenities.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.195" tests="5">
+    <testcase classname="PropertyAmenities.jsx it should exist" name="PropertyAmenities.jsx it should exist" time="0.029">
+    </testcase>
+    <testcase classname="PropertyAmenities.jsx it should be an instance of a class" name="PropertyAmenities.jsx it should be an instance of a class" time="0.001">
+    </testcase>
+    <testcase classname="PropertyAmenities.jsx it should have state" name="PropertyAmenities.jsx it should have state" time="0.002">
+    </testcase>
+    <testcase classname="PropertyAmenities.jsx it should render" name="PropertyAmenities.jsx it should render" time="0.07">
+    </testcase>
+    <testcase classname="PropertyAmenities.jsx it should have three children" name="PropertyAmenities.jsx it should have three children" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="RatingsCircles.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.198" tests="5">
+    <testcase classname="RatingsCircles.jsx it should exist" name="RatingsCircles.jsx it should exist" time="0.006">
+    </testcase>
+    <testcase classname="RatingsCircles.jsx it should be an instance of a class" name="RatingsCircles.jsx it should be an instance of a class" time="0.001">
+    </testcase>
+    <testcase classname="RatingsCircles.jsx it should not have state" name="RatingsCircles.jsx it should not have state" time="0.001">
+    </testcase>
+    <testcase classname="RatingsCircles.jsx it should render" name="RatingsCircles.jsx it should render" time="0.105">
+    </testcase>
+    <testcase classname="RatingsCircles.jsx it should have six children" name="RatingsCircles.jsx it should have six children" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="RoomFeatures.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.221" tests="5">
+    <testcase classname="RoomFeatures.jsx it should exist" name="RoomFeatures.jsx it should exist" time="0.026">
+    </testcase>
+    <testcase classname="RoomFeatures.jsx it should be an instance of a class" name="RoomFeatures.jsx it should be an instance of a class" time="0.001">
+    </testcase>
+    <testcase classname="RoomFeatures.jsx it should have state" name="RoomFeatures.jsx it should have state" time="0.002">
+    </testcase>
+    <testcase classname="RoomFeatures.jsx it should render" name="RoomFeatures.jsx it should render" time="0.095">
+    </testcase>
+    <testcase classname="RoomFeatures.jsx it should have two children" name="RoomFeatures.jsx it should have two children" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="CSS files" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.266" tests="39">
+    <testcase classname="CSS files AboutCopyCSS should exist" name="CSS files AboutCopyCSS should exist" time="0.007">
+    </testcase>
+    <testcase classname="CSS files AboutCopyCSS should be an object" name="CSS files AboutCopyCSS should be an object" time="0.001">
+    </testcase>
+    <testcase classname="CSS files AboutCopyCSS should contain properties" name="CSS files AboutCopyCSS should contain properties" time="0.001">
+    </testcase>
+    <testcase classname="CSS files AppCSS should exist" name="CSS files AppCSS should exist" time="0.001">
+    </testcase>
+    <testcase classname="CSS files AppCSS should be an object" name="CSS files AppCSS should be an object" time="0.005">
+    </testcase>
+    <testcase classname="CSS files AppCSS should contain properties" name="CSS files AppCSS should contain properties" time="0">
+    </testcase>
+    <testcase classname="CSS files CarouselCSS should exist" name="CSS files CarouselCSS should exist" time="0.001">
+    </testcase>
+    <testcase classname="CSS files CarouselCSS should be an object" name="CSS files CarouselCSS should be an object" time="0">
+    </testcase>
+    <testcase classname="CSS files CarouselCSS should contain properties" name="CSS files CarouselCSS should contain properties" time="0">
+    </testcase>
+    <testcase classname="CSS files GoodToKnowCSS should exist" name="CSS files GoodToKnowCSS should exist" time="0.001">
+    </testcase>
+    <testcase classname="CSS files GoodToKnowCSS should be an object" name="CSS files GoodToKnowCSS should be an object" time="0">
+    </testcase>
+    <testcase classname="CSS files GoodToKnowCSS should contain properties" name="CSS files GoodToKnowCSS should contain properties" time="0">
+    </testcase>
+    <testcase classname="CSS files HotelClassCSS should exist" name="CSS files HotelClassCSS should exist" time="0.001">
+    </testcase>
+    <testcase classname="CSS files HotelClassCSS should be an object" name="CSS files HotelClassCSS should be an object" time="0">
+    </testcase>
+    <testcase classname="CSS files HotelClassCSS should contain properties" name="CSS files HotelClassCSS should contain properties" time="0">
+    </testcase>
+    <testcase classname="CSS files HotelLinksCSS should exist" name="CSS files HotelLinksCSS should exist" time="0.003">
+    </testcase>
+    <testcase classname="CSS files HotelLinksCSS should be an object" name="CSS files HotelLinksCSS should be an object" time="0.001">
+    </testcase>
+    <testcase classname="CSS files HotelLinksCSS should contain properties" name="CSS files HotelLinksCSS should contain properties" time="0.001">
+    </testcase>
+    <testcase classname="CSS files PropertyAmenitiesCSS should exist" name="CSS files PropertyAmenitiesCSS should exist" time="0">
+    </testcase>
+    <testcase classname="CSS files PropertyAmenitiesCSS should be an object" name="CSS files PropertyAmenitiesCSS should be an object" time="0">
+    </testcase>
+    <testcase classname="CSS files PropertyAmenitiesCSS should contain properties" name="CSS files PropertyAmenitiesCSS should contain properties" time="0">
+    </testcase>
+    <testcase classname="CSS files RatingsCirclesCSS should exist" name="CSS files RatingsCirclesCSS should exist" time="0">
+    </testcase>
+    <testcase classname="CSS files RatingsCirclesCSS should be an object" name="CSS files RatingsCirclesCSS should be an object" time="0">
+    </testcase>
+    <testcase classname="CSS files RatingsCirclesCSS should contain properties" name="CSS files RatingsCirclesCSS should contain properties" time="0.001">
+    </testcase>
+    <testcase classname="CSS files RatingsCSS should exist" name="CSS files RatingsCSS should exist" time="0">
+    </testcase>
+    <testcase classname="CSS files RatingsCSS should be an object" name="CSS files RatingsCSS should be an object" time="0">
+    </testcase>
+    <testcase classname="CSS files RatingsCSS should contain properties" name="CSS files RatingsCSS should contain properties" time="0">
+    </testcase>
+    <testcase classname="CSS files RoomFeaturesCSS should exist" name="CSS files RoomFeaturesCSS should exist" time="0.001">
+    </testcase>
+    <testcase classname="CSS files RoomFeaturesCSS should be an object" name="CSS files RoomFeaturesCSS should be an object" time="0">
+    </testcase>
+    <testcase classname="CSS files RoomFeaturesCSS should contain properties" name="CSS files RoomFeaturesCSS should contain properties" time="0.001">
+    </testcase>
+    <testcase classname="CSS files RoomTypesCSS should exist" name="CSS files RoomTypesCSS should exist" time="0.001">
+    </testcase>
+    <testcase classname="CSS files RoomTypesCSS should be an object" name="CSS files RoomTypesCSS should be an object" time="0">
+    </testcase>
+    <testcase classname="CSS files RoomTypesCSS should contain properties" name="CSS files RoomTypesCSS should contain properties" time="0">
+    </testcase>
+    <testcase classname="CSS files ShowMoreCSS should exist" name="CSS files ShowMoreCSS should exist" time="0.001">
+    </testcase>
+    <testcase classname="CSS files ShowMoreCSS should be an object" name="CSS files ShowMoreCSS should be an object" time="0">
+    </testcase>
+    <testcase classname="CSS files ShowMoreCSS should contain properties" name="CSS files ShowMoreCSS should contain properties" time="0">
+    </testcase>
+    <testcase classname="CSS files SuperlativesCSS should exist" name="CSS files SuperlativesCSS should exist" time="0.001">
+    </testcase>
+    <testcase classname="CSS files SuperlativesCSS should be an object" name="CSS files SuperlativesCSS should be an object" time="0">
+    </testcase>
+    <testcase classname="CSS files SuperlativesCSS should contain properties" name="CSS files SuperlativesCSS should contain properties" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="GoodToKnow.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.292" tests="5">
+    <testcase classname="GoodToKnow.jsx it should exist" name="GoodToKnow.jsx it should exist" time="0.005">
+    </testcase>
+    <testcase classname="GoodToKnow.jsx it should be an instance of a class" name="GoodToKnow.jsx it should be an instance of a class" time="0.001">
+    </testcase>
+    <testcase classname="GoodToKnow.jsx it should have state" name="GoodToKnow.jsx it should have state" time="0.002">
+    </testcase>
+    <testcase classname="GoodToKnow.jsx it should render" name="GoodToKnow.jsx it should render" time="0.129">
+    </testcase>
+    <testcase classname="GoodToKnow.jsx it should have four children" name="GoodToKnow.jsx it should have four children" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="AboutCopy.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.339" tests="5">
+    <testcase classname="AboutCopy.jsx it should exist" name="AboutCopy.jsx it should exist" time="0.014">
+    </testcase>
+    <testcase classname="AboutCopy.jsx it should be an instance of a class" name="AboutCopy.jsx it should be an instance of a class" time="0.001">
+    </testcase>
+    <testcase classname="AboutCopy.jsx it should have state" name="AboutCopy.jsx it should have state" time="0.008">
+    </testcase>
+    <testcase classname="AboutCopy.jsx it should render" name="AboutCopy.jsx it should render" time="0.236">
+    </testcase>
+    <testcase classname="AboutCopy.jsx it should have two children" name="AboutCopy.jsx it should have two children" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="Superlatives.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.341" tests="5">
+    <testcase classname="Superlatives.jsx it should exist" name="Superlatives.jsx it should exist" time="0.024">
+    </testcase>
+    <testcase classname="Superlatives.jsx it should be an instance of a class" name="Superlatives.jsx it should be an instance of a class" time="0.001">
+    </testcase>
+    <testcase classname="Superlatives.jsx it should not have state" name="Superlatives.jsx it should not have state" time="0.001">
+    </testcase>
+    <testcase classname="Superlatives.jsx it should render" name="Superlatives.jsx it should render" time="0.202">
+    </testcase>
+    <testcase classname="Superlatives.jsx it should have two children" name="Superlatives.jsx it should have two children" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="ShowMore.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.354" tests="5">
+    <testcase classname="ShowMore.jsx it should exist" name="ShowMore.jsx it should exist" time="0.023">
+    </testcase>
+    <testcase classname="ShowMore.jsx it should be an instance of a class" name="ShowMore.jsx it should be an instance of a class" time="0.001">
+    </testcase>
+    <testcase classname="ShowMore.jsx it should have state" name="ShowMore.jsx it should have state" time="0.016">
+    </testcase>
+    <testcase classname="ShowMore.jsx it should render" name="ShowMore.jsx it should render" time="0.209">
+    </testcase>
+    <testcase classname="ShowMore.jsx it should have one child" name="ShowMore.jsx it should have one child" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="Ratings.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:22" time="0.276" tests="5">
+    <testcase classname="Ratings.jsx it should exist" name="Ratings.jsx it should exist" time="0.001">
+    </testcase>
+    <testcase classname="Ratings.jsx it should be an instance of a class" name="Ratings.jsx it should be an instance of a class" time="0">
+    </testcase>
+    <testcase classname="Ratings.jsx it should not have state" name="Ratings.jsx it should not have state" time="0">
+    </testcase>
+    <testcase classname="Ratings.jsx it should render" name="Ratings.jsx it should render" time="0.008">
+    </testcase>
+    <testcase classname="Ratings.jsx it should have two children" name="Ratings.jsx it should have two children" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="HotelLinks.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:22" time="0.285" tests="5">
+    <testcase classname="HotelLinks.jsx it should exist" name="HotelLinks.jsx it should exist" time="0.001">
+    </testcase>
+    <testcase classname="HotelLinks.jsx it should be an instance of a class" name="HotelLinks.jsx it should be an instance of a class" time="0">
+    </testcase>
+    <testcase classname="HotelLinks.jsx it should not have state" name="HotelLinks.jsx it should not have state" time="0">
+    </testcase>
+    <testcase classname="HotelLinks.jsx it should render" name="HotelLinks.jsx it should render" time="0.008">
+    </testcase>
+    <testcase classname="HotelLinks.jsx it should have one child" name="HotelLinks.jsx it should have one child" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="HotelClass.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:22" time="0.317" tests="5">
+    <testcase classname="HotelClass.jsx it should exist" name="HotelClass.jsx it should exist" time="0.001">
+    </testcase>
+    <testcase classname="HotelClass.jsx it should be an instance of a class" name="HotelClass.jsx it should be an instance of a class" time="0.001">
+    </testcase>
+    <testcase classname="HotelClass.jsx it should not have state" name="HotelClass.jsx it should not have state" time="0">
+    </testcase>
+    <testcase classname="HotelClass.jsx it should render" name="HotelClass.jsx it should render" time="0.058">
+    </testcase>
+    <testcase classname="HotelClass.jsx it should have five children" name="HotelClass.jsx it should have five children" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Carousel.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.679" tests="5">
+    <testcase classname="Carousel.jsx it should exist" name="Carousel.jsx it should exist" time="0.004">
+    </testcase>
+    <testcase classname="Carousel.jsx it should be an instance of a class" name="Carousel.jsx it should be an instance of a class" time="0">
+    </testcase>
+    <testcase classname="Carousel.jsx it should have state" name="Carousel.jsx it should have state" time="0.002">
+    </testcase>
+    <testcase classname="Carousel.jsx it should render" name="Carousel.jsx it should render" time="0.073">
+    </testcase>
+    <testcase classname="Carousel.jsx it should have four children" name="Carousel.jsx it should have four children" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="App.jsx" errors="0" failures="0" skipped="0" timestamp="2020-01-30T21:28:19" time="2.936" tests="5">
+    <testcase classname="App.jsx it should exist" name="App.jsx it should exist" time="0.002">
+    </testcase>
+    <testcase classname="App.jsx it should be an instance of a class" name="App.jsx it should be an instance of a class" time="0.001">
+    </testcase>
+    <testcase classname="App.jsx it should have state" name="App.jsx it should have state" time="0.002">
+    </testcase>
+    <testcase classname="App.jsx it should render" name="App.jsx it should render" time="0.092">
+    </testcase>
+    <testcase classname="App.jsx it should have one child" name="App.jsx it should have one child" time="0.019">
+    </testcase>
+  </testsuite>
+</testsuites>
