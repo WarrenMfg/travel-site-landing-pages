@@ -17,6 +17,14 @@ CREATE TABLE `about` (
 
   `aboutCopy` text NOT NULL,
 
+  `image0` varchar(128) NOT NULL,
+  `image1` varchar(128) NOT NULL,
+  `image2` varchar(128) NOT NULL,
+  `image3` varchar(128) NOT NULL,
+  `image4` varchar(128) NOT NULL,
+  `image5` varchar(128) NOT NULL,
+  `image6` varchar(128) NOT NULL,
+
   `amenityIcon0` tinyint NOT NULL,
   `amenityCopy0` varchar(50) NOT NULL,
   `amenityIcon1` tinyint NOT NULL,

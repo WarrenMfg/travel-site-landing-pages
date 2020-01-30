@@ -1,1 +1,1 @@
-- add tests for Modal and ModalCSS
+- add tests for Carousel and CarouselCSS

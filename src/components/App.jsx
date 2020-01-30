@@ -9,6 +9,7 @@ import RoomFeatures from './RoomFeatures.jsx';
 import RoomTypes from './RoomTypes.jsx';
 import GoodToKnow from './GoodToKnow.jsx';
 import HotelLinks from './HotelLinks.jsx';
+import Carousel from './Carousel.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -26,6 +27,13 @@ class App extends React.Component {
       greenLeadersHover: false,
       greenLeadersPopupHover: false,
       aboutCopy: null,
+      image0: null,
+      image1: null,
+      image2: null,
+      image3: null,
+      image4: null,
+      image5: null,
+      image6: null,
       amenityIcon0: null,
       amenityCopy0: null,
       amenityIcon1: null,
@@ -142,6 +150,13 @@ class App extends React.Component {
           certOfExcellence,
           greenLeaders,
           aboutCopy,
+          image0,
+          image1,
+          image2,
+          image3,
+          image4,
+          image5,
+          image6,
           amenityIcon0,
           amenityCopy0,
           amenityIcon1,
@@ -246,6 +261,13 @@ class App extends React.Component {
           certOfExcellence,
           greenLeaders,
           aboutCopy,
+          image0,
+          image1,
+          image2,
+          image3,
+          image4,
+          image5,
+          image6,
           amenityIcon0,
           amenityCopy0,
           amenityIcon1,
@@ -405,8 +427,16 @@ class App extends React.Component {
                 copy={this.state.aboutCopy}
               />
 
-              {/* IMAGE CAROUSEL IF TIME PERMITS */}
-              <styles.imagePlaceholder></styles.imagePlaceholder>
+              <Carousel
+                image0={this.state.image0}
+                image1={this.state.image1}
+                image2={this.state.image2}
+                image3={this.state.image3}
+                image4={this.state.image4}
+                image5={this.state.image5}
+                image6={this.state.image6}
+              />
+
             </styles.left>
 
 

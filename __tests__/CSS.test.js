@@ -1,5 +1,6 @@
 import AboutCopyCSS from '../src/css/AboutCopyCSS.js';
 import AppCSS from '../src/css/AppCSS.js';
+import CarouselCSS from '../src/css/CarouselCSS.js';
 import GoodToKnowCSS from '../src/css/GoodToKnowCSS.js';
 import HotelClassCSS from '../src/css/HotelClassCSS.js';
 import HotelLinksCSS from '../src/css/HotelLinksCSS.js';
@@ -11,8 +12,8 @@ import RoomTypesCSS from '../src/css/RoomTypesCSS.js';
 import ShowMoreCSS from '../src/css/ShowMoreCSS.js';
 import SuperlativesCSS from '../src/css/SuperlativesCSS.js';
 
-const cssFiles = [AboutCopyCSS, AppCSS, GoodToKnowCSS, HotelClassCSS, HotelLinksCSS, PropertyAmenitiesCSS, RatingsCirclesCSS, RatingsCSS, RoomFeaturesCSS, RoomTypesCSS, ShowMoreCSS, SuperlativesCSS];
-const cssFileNames = ['AboutCopyCSS', 'AppCSS', 'GoodToKnowCSS', 'HotelClassCSS', 'HotelLinksCSS', 'PropertyAmenitiesCSS', 'RatingsCirclesCSS', 'RatingsCSS', 'RoomFeaturesCSS', 'RoomTypesCSS', 'ShowMoreCSS', 'SuperlativesCSS'];
+const cssFiles = [AboutCopyCSS, AppCSS, CarouselCSS, GoodToKnowCSS, HotelClassCSS, HotelLinksCSS, PropertyAmenitiesCSS, RatingsCirclesCSS, RatingsCSS, RoomFeaturesCSS, RoomTypesCSS, ShowMoreCSS, SuperlativesCSS];
+const cssFileNames = ['AboutCopyCSS', 'AppCSS', 'CarouselCSS', 'GoodToKnowCSS', 'HotelClassCSS', 'HotelLinksCSS', 'PropertyAmenitiesCSS', 'RatingsCirclesCSS', 'RatingsCSS', 'RoomFeaturesCSS', 'RoomTypesCSS', 'ShowMoreCSS', 'SuperlativesCSS'];
 
 for (let i = 0; i < cssFiles.length; i++) {
   describe('CSS files', () => {
