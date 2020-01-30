@@ -5,8 +5,23 @@ class Carousel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      images: [this.props.image0, this.props.image1, this.props.image2, this.props.image3, this.props.image4, this.props.image5, this.props.image6],
+      mainImage: this.props.image0
     };
+    this.handleBottomImageClick = this.handleBottomImageClick.bind(this);
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevProps !== this.props) {
+      this.setState({
+        images: [this.props.image0, this.props.image1, this.props.image2, this.props.image3, this.props.image4, this.props.image5, this.props.image6],
+        mainImage: this.props.image0
+      });
+    }
+  }
+
+  handleBottomImageClick(e) {
+    this.setState({mainImage: this.state.images[e.target.dataset.index]});
   }
 
   render() {
@@ -14,17 +29,33 @@ class Carousel extends React.Component {
       <styles.carouselContainer>
 
         <styles.mainImageContainer>
-          <styles.mainImage src="https://about-widget.s3.us-east-2.amazonaws.com/1/0.jpeg" alt="You'll definitely want to stay here!"/>
+          <div css={{
+            backgroundImage: `url("${this.state.mainImage || ''}")`,
+            height: '275px',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover'
+          }}
+          ></div>
         </styles.mainImageContainer>
 
-        <styles.bottomImagesContainer>
-          <styles.bottomImage src="https://about-widget.s3.us-east-2.amazonaws.com/1/0.jpeg" alt="You'll definitely want to stay here!" />
-          <styles.bottomImage src="https://about-widget.s3.us-east-2.amazonaws.com/1/1.jpeg" alt="You'll definitely want to stay here!" />
-          <styles.bottomImage src="https://about-widget.s3.us-east-2.amazonaws.com/1/2.jpeg" alt="You'll definitely want to stay here!" />
-          <styles.bottomImage src="https://about-widget.s3.us-east-2.amazonaws.com/1/3.jpeg" alt="You'll definitely want to stay here!" />
-          <styles.bottomImage src="https://about-widget.s3.us-east-2.amazonaws.com/1/4.jpeg" alt="You'll definitely want to stay here!" />
-          <styles.bottomImage src="https://about-widget.s3.us-east-2.amazonaws.com/1/5.jpeg" alt="You'll definitely want to stay here!" />
-          <styles.bottomImage src="https://about-widget.s3.us-east-2.amazonaws.com/1/6.jpeg" alt="You'll definitely want to stay here!" />
+        <styles.bottomImagesContainer onClick={this.handleBottomImageClick}>
+          {this.state.images.map((image, i) =>
+            <div
+              key={i}
+              data-index={i}
+              css={{
+                backgroundImage: `url("${this.state.images[i] || ''}")`,
+                width: '13.75%',
+                height: '50px',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                cursor: 'pointer'
+              }}
+            />
+
+          )}
         </styles.bottomImagesContainer>
 
       </styles.carouselContainer>
