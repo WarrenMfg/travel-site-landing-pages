@@ -1,6 +1,6 @@
 import React from 'react';
 import {Global, css, jsx} from '@emotion/core';
-import styles from '../css/AppCSS.js';
+import styles from '../css/AboutCSS.js';
 import Ratings from './Ratings.jsx';
 import Superlatives from './Superlatives.jsx';
 import AboutCopy from './AboutCopy.jsx';
@@ -11,7 +11,7 @@ import GoodToKnow from './GoodToKnow.jsx';
 import HotelLinks from './HotelLinks.jsx';
 import Carousel from './Carousel.jsx';
 
-class App extends React.Component {
+class About extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -362,7 +362,7 @@ class App extends React.Component {
           special
         });
       })
-      .catch(err => console.log('error at App.jsx componentDidMount', err));
+      .catch(err => console.log('error at About.jsx componentDidMount', err));
   }
 
   handleSuperlativeMouseOver(e) {
@@ -587,4 +587,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default About;

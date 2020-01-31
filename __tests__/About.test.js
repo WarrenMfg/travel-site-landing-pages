@@ -1,20 +1,20 @@
-import App from '../src/components/App.jsx';
+import About from '../src/components/About.jsx';
 import {render} from 'enzyme';
 
-describe('App.jsx', () => {
+describe('About.jsx', () => {
 
   // Jest
   test('it should exist', () => {
-    expect(new App()).toBeDefined();
+    expect(new About()).toBeDefined();
   });
 
   test('it should be an instance of a class', () => {
-    expect(new App()).toBeInstanceOf(App);
+    expect(new About()).toBeInstanceOf(About);
   });
 
   test('it should have state', () => {
-    const newAppState = new App();
-    const currentAppState = {
+    const newAboutState = new About();
+    const currentAboutState = {
       id: null,
       average: null,
       location: null,
@@ -128,17 +128,17 @@ describe('App.jsx', () => {
       special: null
     };
 
-    expect(newAppState.state).toEqual(currentAppState);
+    expect(newAboutState.state).toEqual(currentAboutState);
   });
 
   // Enzyme
   it('it should render', () => {
-    const wrapper = render(<App />);
+    const wrapper = render(<About />);
     expect(wrapper['0']).toHaveProperty('name', 'div');
   });
 
   it('it should have one child', () => {
-    const wrapper = render(<App />);
+    const wrapper = render(<About />);
     expect(wrapper['0'].children).toHaveLength(1);
   });
 });
