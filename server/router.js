@@ -11,7 +11,7 @@ router.route('/:id')
       if (err) {
         console.log('error at server/router.js GET/:id', err);
       } else {
-        res.set('Access-Control-Allow-Origin', 'http://127.0.0.1:314'); // my proxy
+        res.set('Access-Control-Allow-Origin', '*'); // my proxy
         res.send({data});
       }
     });
