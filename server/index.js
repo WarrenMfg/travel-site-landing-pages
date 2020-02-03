@@ -11,6 +11,6 @@ app.use('/bundle.js', express.static(__dirname + '/../public/bundle.js')); // fo
 app.use('/api/about', router);
 app.use('/:id', express.static(__dirname + '/../public'));
 
-app.listen(process.env.PORT || 313, console.log('Listening on port 313'));
+app.listen(process.env.PORT || 313, console.log(`Listening on port ${process.env.PORT || 313}`));
 
 module.exports = app;
