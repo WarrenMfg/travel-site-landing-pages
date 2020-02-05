@@ -11,8 +11,8 @@ router.route('/:id')
       if (err) {
         console.log('error at server/router.js GET/:id', err);
       } else {
-        res.set('Access-Control-Allow-Origin', '*'); // my proxy
-        res.send({data});
+        // res.set('Access-Control-Allow-Origin', '*'); // my proxy
+        res.send(data);
       }
     });
   });

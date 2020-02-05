@@ -137,7 +137,7 @@ class About extends React.Component {
     let url = window.location.pathname.split('/');
     let id = url[1];
 
-    fetch(`/../api/about/${id}`)
+    fetch(`/api/about/${id}`)
       .then(data => data.json())
       .then(data => {
         data = data.data[0];
