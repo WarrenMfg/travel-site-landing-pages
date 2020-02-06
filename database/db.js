@@ -3,7 +3,7 @@ const connection = mysql.createConnection({
   host: process.env.RDS_HOST || 'localhost',
   user: process.env.RDS_USERNAME || 'root',
   password: process.env.RDS_PASSWORD || undefined,
-  database: 'about'
+  database: 'HRR43_FEC'
 });
 connection.connect();
 
