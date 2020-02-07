@@ -3544,13 +3544,13 @@ const downloadImages = (obj) => {
 
 
 // promisify downloadImages
-const downloadImagesAsync = Promise.promisify(downloadImages);
+// const downloadImagesAsync = Promise.promisify(downloadImages);
 
 
 // download and save to directories
 const startDownloadingImages = () => {
   for (let i = 0; i < cleanAPIdata.length; i++) {
-    downloadImagesAsync(cleanAPIdata[i]);
+    downloadImages(cleanAPIdata[i]);
   }
 };
 startDownloadingImages();
