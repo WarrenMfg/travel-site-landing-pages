@@ -140,7 +140,11 @@ class About extends React.Component {
     fetch(`/api/about/${id}`)
       .then(data => data.json())
       .then(data => {
-        data = data.data[0];
+        if (data.data) {
+          data = data.data[0];
+        } else {
+          data = data[0];
+        }
         let {
           average,
           location,
