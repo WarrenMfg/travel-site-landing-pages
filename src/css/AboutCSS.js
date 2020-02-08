@@ -14,14 +14,16 @@ const styles = {
     width: '66.66vw',
     minWidth: '320px',
     borderTop: '4px solid rgb(0, 129, 113)',
-    padding: '0 24px 16px',
+    // padding: '0 24px 16px',
+    padding: '0 0 16px',
     backgroundColor: 'white'
   }),
 
   h2: styled.h2({
     borderBottom: '1px solid rgb(229, 229, 229)',
     color: 'black',
-    padding: '20px 0',
+    // padding: '20px 0',
+    padding: '20px 24px',
     margin: '0'
   }),
 
@@ -30,6 +32,7 @@ const styles = {
     gridTemplateColumns: '1fr 1fr',
     gridTemplateAreas: '"left right"',
     gridColumnGap: '15px',
+    padding: '0 24px'
   }),
 
   left: styled.div({
