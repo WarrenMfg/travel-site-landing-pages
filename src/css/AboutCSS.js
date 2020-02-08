@@ -12,6 +12,7 @@ const styles = {
 
   aboutContainer: styled.div({
     width: '50vw',
+    minWidth: '320px',
     borderTop: '4px solid rgb(0, 129, 113)',
     margin: '0 auto',
     padding: '0 24px 16px',
