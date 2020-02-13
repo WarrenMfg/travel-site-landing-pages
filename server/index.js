@@ -7,7 +7,7 @@ const router = require('./router.js');
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 
-app.use('/bundle.js', express.static(__dirname + '/../public/bundle.js.br')); // for proxy server
+app.use('/bundle.js.br', express.static(__dirname + '/../public/bundle.js.br')); // for proxy server
 app.use('/api/about', router);
 app.use('/:id', express.static(__dirname + '/../public'));
 
