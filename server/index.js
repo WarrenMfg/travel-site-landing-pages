@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 app.get('/bundle.js', (req, res) => {
   const gzip = zlib.createGzip();
   const bundle = fs.createReadStream(path.resolve(__dirname, '../public/bundle.js'));
+  res.set({'Content-Encoding': 'gzip'});
   bundle.pipe(gzip).pipe(res);
 });
 app.use('/api/about', router);
